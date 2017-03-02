@@ -1,0 +1,925 @@
+   1 12462   -51.75  -0.75  4618750.0   5389.537    79.0 1928 2006    37.0 BR SA Amazon          ATL Obidos, Bra
+   2 10291    12.75  -5.75  3475000.0   1270.203    97.1 1903 2000   270.0 CD AF Congo           ATL Kinshasa, C
+   3 11474   -61.75   9.25   836000.0    980.088    75.8 1923 1999 -9999.0 VE SA Orinoco         ATL Pte Angostu
+   4 10374   120.75  32.25  1705383.0    905.141    99.6 1900 2000    19.0 CN AS Changjiang      PAC Datong, Chi
+   5 10245    89.75  24.25   554542.0    670.943    44.3 1956 2000    19.0 BD AS Brahmaputra     IND Bahadurabad
+   6 11381   -90.25  29.75  2896021.0    537.319    79.0 1928 2006    14.1 US NA Mississippi     ATL Vicksburg, 
+   7 10381    83.25  70.75  2440000.0    583.768    69.3 1936 2006     2.0 RU AS Yenisey         ARC Igarka, Rus
+   8 11933   -57.75 -34.75  2346000.0    476.584   101.3 1905 2006     4.0 AR SA Parana          ATL Timbues, Ar
+   9 10095   126.75  72.75  2430000.0    529.295    71.4 1934 2006     0.0 RU AS Lena            ARC Kusur, Russ
+  10 17979   106.25   9.75   545000.0    300.351    82.6 1923 2005 -9999.0 LA AS Mekong          PAC Pakse, Laos
+  11 14354   -49.25  -2.25   742300.0    357.689    49.4 1978 2006     1.9 BR SA Tocantins       ATL Tucurui, Br
+  12 12315   -55.25  -2.75   387378.0    337.803    24.0 1973 1998 -9999.0 BR SA Tapajos         ATL Jatoba, Bra
+  13 10378    69.25  66.75  2430000.0    396.085    76.0 1930 2006     0.0 RU AS Ob              ARC Salekhard, 
+  14 10576    88.25  24.25   951600.0    379.679    48.0 1949 1996 -9999.0 IN AS Ganges (Ganga)  IND Farakka, In
+  15 15233    95.75  17.75   117900.0    256.783    11.0 1978 1988 -9999.0 MM AS Irrawaddy (Ayey IND Sagaing, My
+  16 16062   -67.75  48.75   773888.0    224.654   106.8 1900 2006    47.0 US NA St Lawrence     ATL Cornwall ON
+  17 11346   140.25  51.75  1730000.0    305.944    99.9 1900 1999    13.0 RU AS Amur            PAC Komsomolsk,
+  18 11103   -52.25  -2.25   446388.0    273.437    26.4 1971 1998 -9999.0 BR SA Xingu           ATL Altamira, B
+  19 10069  -134.25  68.75  1660000.0    283.431    46.6 1943 2006 -9999.0 CA NA Mackenzie       ARC Arctic Red,
+  20 12217   113.25  22.25   329705.0    219.664    45.7 1915 1986 -9999.0 CN AS Xijiang         PAC Wuzhou, Chi
+  21 14651  -123.75  46.25   613827.0    164.860   106.8 1900 2006     0.0 US NA Columbia        PAC The Dalles,
+  22 10000   -74.75  10.75   257438.0    230.904    51.0 1950 2000     8.0 CO SA Magdalena       ATL Calamar, Co
+  23 13818   -58.25 -33.75   249312.0    166.907    57.3 1965 2006     1.2 AR SA Uruguay (Urugua ATL Concordia, 
+  24 10443  -164.25  62.75   831386.0    227.464    50.0 1956 2006     6.1 AK NA Yukon           PAC Pilot Stn, 
+  25 36429   -77.25   6.25     9432.0     55.789    24.2 1966 1990    18.0 CO SA Atrato          ATL Tagachi, Co
+  26 10000    28.75  45.25   807000.0    203.739   103.0 1900 2002     4.0 RO EU Danube          MED Ceatal Izma
+  27 10139     6.25   4.75  2209302.5    180.524    73.0 1915 2006  -999.0 Ni Ni Niger (Issa Ber ATL Lokoja, Nig
+  28 12568     9.75  -0.75   203500.0    147.964    42.0 1930 1975     9.0 GA AF Ogooué          ATL Lambaréné, 
+  29 22319   -58.75   6.25    66600.0     66.436    28.8 1965 1995    18.0 GY SA Essequibo       ATL Plantain Is
+  30 16744  -122.75  48.75   217000.0     85.430    93.8 1912 2005    38.0 CA NA Fraser          PAC Hope, Canad
+  31 10370    53.25  67.75   312000.0    137.846    73.8 1916 2000 -9999.0 RU EU Pechora         ARC Oksino, Rus
+  32 18000   -92.75  57.25   997000.0     69.606    71.3 1915 2006   190.0 CA NA Nelson          ATL u/s Bladder
+  33 15897   106.75  73.25   275000.0     87.626    13.4 1961 1994 -9999.0 RU AS Khatanga        ARC Khatanga, R
+  34 10336   143.25  -3.75    40922.0    118.605     4.0 1980 1984    40.0 PG PO Sepik           PAC Ambunti, Pa
+  35 11919   160.75  68.75   526000.0     97.080    74.3 1927 2004 -9999.0 RU AS Kolyma          ARC Kolymskoye,
+  36 11143    35.75 -18.25   940000.0    105.311     4.0 1976 1979   117.0 MZ AF Zambeze         IND Matundo-Cai
+  37 10566    40.25  64.75   348000.0    104.400   105.7 1900 2006     2.0 RU EU Severnaya Dvina ARC Ust Pinega,
+  38 11685    68.25  24.75   975000.0     88.525    63.8 1936 2000    13.0 PK AS Indus           IND Kotri, Paki
+  39 15714    10.25   3.75   131500.0     62.633    36.6 1943 1980    25.0 CM AF Sanaga          ATL Edéa, Camer
+  40 10000    81.75  16.75   299320.0     95.878    73.5 1901 1979 -9999.0 IN AS Godavari        IND Polavaram, 
+  41 13286   111.75   2.75    34053.0     70.272    31.5 1962 1994 -9999.0 MY AS Rajang          PAC Kapit Wharf
+  42 10112   -36.75 -10.25   622600.0     89.363    76.4 1926 2006    40.0 BR SA Sao Francisco   ATL Traipu, Bra
+  43 15085   -92.25  18.25    50743.0     58.594    46.0 1949 2000    60.0 MX NA Usumacinta      ATL Boca del Ce
+  44 14576   -54.25   5.75    63700.0     51.629    45.0 1951 1995    10.0 SR SA Maroni (Marowij ATL Langa Tabbe
+  45 10274     5.75  52.75   180000.0     70.459   103.0 1901 2003 -9999.0 NL EU Rhine           ATL Lobith, Net
+  46 10000   144.75  -7.25    28749.0     73.794     6.2 1961 1984    40.0 PG PO Purari          PAC Wabo Dam, P
+  47 16977   -68.25  58.25    86800.0     40.591    37.7 1954 1999    67.0 CA NA Caniapiscau     ATL Chute de la
+  48 12167    86.25  20.25   132090.0     59.434     6.0 1965 1970 -9999.0 IN AS Mahanadi        IND Kaimundi, I
+  49 33002  -122.25  37.75    60885.0     21.504    57.0 1948 2006     0.0 US NA Sacramento      PAC FREEPORT CA
+  50 12545   -51.75 -29.75    71454.0     54.999    58.4 1972 2006 -9999.0 BR SA Jacui           ATL Passo do Ra
+  51 10000   -77.25   4.25    14000.0     65.138    25.8 1965 1990     7.0 CO SA San Juan CO     PAC Penitas, Co
+  52 53333     7.25   7.75    60500.0     10.603    46.8 1930 1989   173.0 CM AF Bénoué          ATL Garoua-dono
+  53 15000  -162.25  60.25    80549.0     37.743    54.3 1951 2006    61.0 AK NA Kuskokwim       PAC Crooked Ck,
+  54 19000   -81.75  52.25   118000.0     30.080    34.4 1964 2005    67.0 CA NA Albany          ATL nr Hat Isla
+  55 21111   120.25  34.25   121330.0     26.971    53.7 1915 1989    25.0 CN AS Huai            PAC Bengbu, Chi
+  56 10370   -78.75  53.75    96300.0     53.728    18.8 1960 1978     7.0 CA NA Grande (La)     ATL en aval de,
+  57 14737    46.25  31.75   134000.0     38.193    34.1 1906 1972    34.0 IQ AM Tigris (Dicle,  IND Baghdad, Ir
+  58 10577    80.25  16.25   251355.0     51.809    74.0 1901 1979 -9999.0 IN AS Krishna         IND Vijayawada,
+  59 14865   -74.25  45.75    89600.0     36.484    91.8 1914 2005    70.0 CA NA Ottawa          ATL Chats Falls
+  60  7143    95.25  21.75    27420.0     76.880    11.0 1978 1988 -9999.0 MM AS Chindwin        IND Hkamti, Mya
+  61 16667    78.75  67.25   100000.0     32.805    32.1 1962 1996 -9999.0 RU AS Taz             ARC Sidorovsk, 
+  62 11458    11.75  45.25    70091.0     47.746    80.3 1918 1998     8.0 IT EU Po              MED Pontelagosc
+  63 15882   -57.25   5.75    51600.0     34.267     7.0 1973 1979     9.0 SR SA Courantyne/Cora ATL Mataway (Ma
+  64 10800   149.75  71.25   305000.0     50.437    62.3 1936 1998     3.0 RU AS Indigirka       ARC Vorontsovo,
+  65 10000     4.75  43.75    95590.0     53.904    81.0 1920 2000     6.0 FR EU Rhone           MED Beaucaire, 
+  66 11522   -70.75  48.25    73000.0     45.981    80.3 1913 1993   100.0 CA NA Saguenay        ATL Centrale d'
+  67 17586   -88.25  30.75    56894.0     29.624    76.5 1930 2006     0.1 US NA Alabama         ATL Claiborne, 
+  68 10000  -132.25  56.75    51593.0     50.220    47.3 1954 2006     7.6 AK NA Stikine         PAC nr Wrangell
+  69 16897   -78.25  52.25    44300.0     28.659    42.0 1959 2001    35.0 CA NA Eastmain        ATL tete de la,
+  70 22857    86.75  20.75    50000.0     21.283     1.0 1971 1971 -9999.0 IN AS Brahmani        IND Barakot bri
+  71 10000    35.25  47.25   463000.0     46.822    33.0 1952 1984 -9999.0 UA EU Dnepr           MED Dnepr hydro
+  72 10444   116.75  36.75   734146.0     44.924    52.3 1934 2000 -9999.0 CN AS Huanghe         PAC Gaocung, Ch
+  73 12703   -56.25  -5.25    40400.0     37.088     2.5 1986 1992 -9999.0 BR SA Jamanxim        ATL Jamanxim, B
+  74 14839   -76.25  39.25    62419.0     30.392   106.8 1900 2006    88.4 US NA Susquehanna     ATL Harrisburg,
+  75 10952   113.75  22.75    38363.0     42.126    34.7 1953 1987 -9999.0 CN AS Beijiang        PAC Shijiao, Ch
+  76 17308    39.25  47.25   378000.0     24.447    92.9 1900 1995    58.0 RU EU Don             MED Razdorskaya
+  77 10000  -150.25  61.75    50246.0     44.681    52.5 1949 2006    12.2 AK NA Susitna         PAC Susitna Stn
+  78 11282    73.25  21.75    89345.0     38.381    26.0 1949 1979 -9999.0 IN AS Narmada         IND Garudeshwar
+  79 18636   -68.75 -50.25    15550.0     22.011    37.6 1955 1994   206.0 AR SA Santa Cruz      ATL Charles Fuh
+  80 14286   -51.75   3.75    25100.0     26.381    42.8 1953 1996   103.0 GF SA Oyapock (Oiapoq ATL Maripa, Fre
+  81 16667   -66.25  58.75    35200.0     23.462    15.8 1962 1979   104.0 CA NA George          ATL aux Chutes,
+  82 15385    39.25  -7.75   158200.0     25.738    16.6 1954 1978    64.0 TZ AF Rufiji          IND Stiegeler's
+  83 10000    31.25  31.25  2900000.0     39.571    12.0 1973 1984    20.0 EG AF Nile            MED El Ekhsase,
+  84 11818   -79.25  51.25    57500.0     32.542    22.0 1960 1982   243.0 CA NA Nottaway        ATL tete du Lac
+  85 10882     0.25   5.75   394100.0     33.918    47.3 1936 1984     5.0 GH AF Volta           ATL Senchi (Hal
+  86 17619  -123.25  45.25    18855.0     21.004    91.0 1909 2006    32.4 US NA Willamette      PAC Salem, OR, 
+  87 12414  -130.25  54.25    42200.0     28.536    72.8 1928 2006   100.0 CA NA Skeena          PAC Usk, Canada
+  88 18947    -0.75  44.75    52000.0     19.264    58.3 1920 1979    17.0 FR EU Garonne         ATL Mas-d'Agena
+  89 12857   -91.75  31.25   174824.0     27.662    78.0 1928 2006    13.5 US NA Red             ATL Alexandria,
+  90 19444   103.25   3.25    19000.0     16.895    31.7 1963 2000    31.0 MY AS Pahang          IND Temerloh, M
+  91 13600   -80.75  51.75    61100.0     23.795    45.3 1959 2005    29.0 CA NA Moose           ATL Moose River
+  92 11724   100.25  13.75   118816.0     23.273    86.5 1912 2000 -9999.0 TH AS Chao Phraya     PAC Wat Phikun,
+  93 10000   -59.25   6.75    53400.0     35.671    10.0 1973 1987    12.0 GY SA Cuyuni          ATL Kamaria Fal
+  94 10303    18.75  54.25   194000.0     32.871    94.0 1900 1994 -9999.0 PL EU Vistula (Wisla) ATL Tczew, Pola
+  95 10000  -144.75  60.25    53354.0     36.212    41.7 1950 2006   121.9 AK NA Copper          PAC Chitina, AK
+  96 12593   -66.25  45.25    39900.0     35.739    76.6 1918 1995     6.0 CA NA Saint John      ATL d/s Mactaqu
+  97 10625   122.25  72.75   198000.0     34.446    49.0 1951 1999 -9999.0 RU AS Olenek          ARC 7.5 km d/s,
+  98 12222   -78.75  51.75    40900.0     26.529    37.5 1963 2001   211.0 CA NA Rupert          ATL en aval du,
+  99 17368    31.25  60.75    61275.0     18.720   102.0 1900 2001    72.0 FI EU Vuoksi          ATL Tainionkosk
+ 100 11379   162.75  56.25    51600.0     29.165    47.3 1937 1985     7.0 RU AS Kamchatka       PAC Bolshie Sch
+ 101 11379   -68.25  49.25    45800.0     32.097    46.7 1946 1994    37.0 CA NA Manicouagan     ATL Centrale Mc
+ 102 11852   -78.25   1.75    18800.0     31.726     9.5 1973 1991    40.0 EC SA Esmeraldas      PAC d.j. Sade, 
+ 103 10000   -39.75 -19.25    78456.0     32.437    68.0 1967 2006 -9999.0 BR SA Doce            ATL Linhares, B
+ 104 10000   135.75  71.25   224000.0     33.122    52.4 1951 2006 -9999.0 RU AS Yana            ARC Ubileynaya,
+ 105 10000   -53.25  -1.25    51343.0     32.113    37.8 1968 2006 -9999.0 BR SA Jari            ATL Sao Francis
+ 106 10000   -72.75 -37.25    24029.0     31.876    28.3 1963 1992 -9999.0 CL SA Bío Bío         PAC desembocadu
+ 107 16000   -87.75  56.25    94300.0     19.933    22.6 1970 1994    50.0 CA NA Severn-CA       ATL Limestone R
+ 108 14762  -158.25  58.75    25511.0     20.987    16.0 1977 1993    27.4 AK NA Nushagak        PAC Ekwok, AK, 
+ 109 10000    44.75 -19.75    45000.0     31.400    24.3 1958 1983 -9999.0 MG AF Tsiribihina     IND Betomba, Ma
+ 110 11111   -73.75 -47.75    23736.0     27.443    21.8 1963 1984   105.0 CL SA Baker           PAC La Colonia,
+ 111 10000   -50.25   1.25    23373.0     29.996    41.2 1952 2006 -9999.0 BR SA Araguari        ATL Porto Plato
+ 112 10357    74.75  68.75    95100.0     27.852    50.2 1939 1991     2.0 RU AS Pur             ARC Samburg, Ru
+ 113 11600  -130.25  54.75    19200.0     24.484    66.4 1929 2006    65.0 CA NA Nass            PAC u/s Shumal,
+ 114 17059    -8.75  41.25    91491.0     17.317    36.8 1933 1969    44.0 PT EU Douro (Duero)   ATL Regua, Port
+ 115 10741   -62.75 -40.75    95000.0     26.924    66.8 1927 1994    32.0 AR SA Negro-AR        ATL Primera Ang
+ 116 10000    11.75  -4.25    55010.0     28.584    22.9 1956 1982     8.0 CG AF Kouilou         ATL Sounda, Con
+ 117 10769    -2.25  47.25   110000.0     27.553   100.0 1900 1999     9.0 FR EU Loire           ATL Montjean, F
+ 118 13333   -72.75 -41.75     8620.0     20.970    43.4 1943 1986 -9999.0 CL SA Puelo           PAC Carrero de,
+ 119 11739   113.75  22.75    25325.0     23.412    34.3 1953 1987     7.0 CN AS Dongjiang       PAC Boluo, Chin
+ 120 10000    89.25  25.75    20000.0     28.631    12.8 1969 1992 -9999.0 BD AS Tista           IND Kaunia, Ban
+ 121 12273     9.25  53.75   123532.0     21.423   102.0 1900 2001    17.0 DE EU Elbe (Labe)     ATL Wittenberge
+ 122 10000  -138.25  59.25    28024.0     27.300    31.3 1974 2006     0.0 AK NA Alsek           PAC nr Yakutat,
+ 123 12857   -88.25  31.75    39847.1     21.223    78.2 1928 2006    17.1 US NA Tombigbee River ATL Demopolis L
+ 124 10000   -41.25 -21.75    55500.0     26.226    78.9 1928 2006    14.0 BR SA Paraiba do Sul  ATL Campos-Pont
+ 125 10833   -41.75  -3.25   282000.0     24.037    43.3 1963 2006    20.0 BR SA Parnaiba        ATL Porto Formo
+ 126 10417    48.25  30.75    60769.0     23.437    66.4 1900 1985    20.0 IR AS Karun           IND Ahvaz, Iran
+ 127  9259   -54.75  -6.25    34693.0     27.196    20.7 1975 1998 -9999.0 BR SA Curua-2         ATL Cajueiro, B
+ 128 12500    43.75  66.25    56400.0     20.219    84.4 1920 2006    19.0 RU EU Mezen           ARC Malonisogor
+ 129 13889   118.25   5.75    10800.0     16.285     3.8 1981 1985 -9999.0 MY AS Kinabatangan    PAC Balat, Mala
+ 130 10000   -72.75  46.75    42000.0     23.266    94.0 1901 1994    99.0 CA NA Saint-Maurice   ATL Centrale de
+ 131 14375    10.25  -2.75    20000.0     16.315     6.3 1965 1974 -9999.0 GA AF Nyanga          ATL Ibanga, Gab
+ 132 12778   -47.75  -1.75    38178.0     18.376    33.7 1971 2006 -9999.0 BR SA Capim           ATL Badajos, Br
+ 133 12941   -93.16  17.98     9000.0      4.546     3.0 1976 1978 -9999.0 MX NA Rompido de Sama ATL Reforma, Me
+ 134 10000   -16.25  16.25   268000.0     21.691    94.7 1903 2000    14.0 SN AF Senegal         ATL Dagana, Sen
+ 135 10000   -95.75  18.75    21419.0     21.514    51.0 1948 2000    22.0 MX NA Papaloapan      ATL Papaloapan,
+ 136 11053    46.25  31.75   274100.0     19.149    18.0 1923 1972    28.0 IQ AM Euphrates (Fira IND Hindiya, Ir
+ 137 10000    11.25  59.75    40221.0     21.211    83.3 1901 1984   100.0 NO EU Glomma (Gläma ) ATL Langnes (So
+ 138 10000   -85.25  29.75    44548.0     19.987    78.0 1928 2006    12.4 US NA Apalachicola    ATL Chattahooch
+ 139 13333    71.75  66.25    48000.0     14.420    38.1 1955 2005 -9999.0 RU AS Nadym           ARC Nadym, Russ
+ 140 11765    14.25  53.75   109729.0     16.724   100.2 1900 2000     3.0 PL EU Odra (Oder)     ATL Gozdowice, 
+ 141 11875    24.25  56.75    70350.0     15.750    58.8 1906 1985    75.0 LV EU Daugava (Zapadn ATL Jekabpils, 
+ 142 10000   -92.75  56.75   103000.0     19.187    28.4 1974 2006 -9999.0 CA NA Hayes, MB       ATL d/s Gods Ri
+ 143 11176   -76.99  55.23    36300.0     16.634    37.1 1961 2001 -9999.0 CA NA GR Baleine      ATL BALEINE (GR
+ 144 10000    43.75 -21.75    53225.0     16.646    26.0 1951 1983 -9999.0 MG AF Mangoky         IND Bevoay, Mad
+ 145 10000   -69.75  58.75    41700.0     18.513    30.3 1962 1993     4.0 CA NA Feuilles (R aux ATL en aval de,
+ 146 10000   -69.75  57.75    42700.0     18.980    34.6 1962 1999    27.0 CA NA Melezes (R aux) ATL pres de la,
+ 147 10000   -94.25  58.75   287000.0     18.357    71.8 1928 2006 -9999.0 CA NA Churchill       ATL abv.RED HEA
+ 148 10000   102.25   5.75    11900.0     17.284    50.2 1949 2000    25.0 MY AS Kelantan        PAC Guillemard,
+ 149 10000   168.75 -46.25    20306.0     17.355    29.1 1954 1984    10.0 NZ PO Clutha          PAC Balclutha, 
+ 150 10000     9.25   5.75     6810.0     17.097    12.6 1967 1979    44.0 CM AF Cross           ATL Mamfe (Manf
+ 151 10000    24.75  65.75    50599.0     17.168    91.0 1911 2001    17.0 FI EU Kemi            ATL Taivalkoski
+ 152 10000    11.75  57.75    46858.0     16.505   104.0 1900 2003    44.0 SE EU Gota            ATL Vänern, Swe
+ 153 10000   126.75  37.25    25046.0     16.583    24.5 1947 1979     2.0 KR AS Han             PAC Indogyo, So
+ 154 10625   -95.75  67.25    93900.0     14.913    40.1 1965 2006    27.0 CA NA Back            ARC u/s Hermann
+ 155 10000    38.25  63.75    55735.0     16.106    60.0 1943 2006    10.0 RU EU Onega           ARC Porog, Russ
+ 156 10000    72.75  21.25    61575.0     15.428    27.3 1940 1979 -9999.0 IN AS Tapi (Tapti)    IND Kathore, In
+ 157 12308   113.75  73.25    78800.0     14.449    48.1 1954 2005 -9999.0 RU AS Anabar          ARC Saskylakh, 
+ 158 10000   -39.25 -16.25    67769.0     14.445    65.3 1936 2006 -9999.0 BR SA Jequitinhonha   ATL Itapebi, Br
+ 159 12727    37.75  45.25    48100.0     11.837    86.8 1911 1998     5.0 RU EU Kuban           MED Tikhovskiy,
+ 160 10000   -98.25  22.25    58115.0     13.614    23.0 1957 1979    80.0 MX NA Pánuco          ATL Las Adjunta
+ 161 11667    33.75 -24.75   342000.0     11.677     3.2 1976 1979    23.0 MZ AF Limpopo         IND Chokwe, Moz
+ 162 10000   -85.25  55.25    50000.0     13.304    37.5 1965 2005   100.0 CA NA Winisk          ATL d/s Ashewei
+ 163 10000     0.75  40.75    84230.0     14.820    72.0 1913 1999     8.0 ES EU Ebro            MED Tortosa, Sp
+ 164 10000    27.75  59.25    56000.0     12.453    85.6 1902 1991 -9999.0 EE EU Narva           ATL Narva Ges, 
+ 165  9211  -114.75  31.75   444701.0     12.360    72.5 1934 2006    31.4 US NA Colorado-AR     PAC blw Hoover 
+ 166 10000     1.25  49.75    65000.0     10.527     7.0 1971 1977 -9999.0 FR EU Seine           ATL Poses, Fran
+ 167 10000  -115.25  67.75    50700.0      9.031    40.7 1965 2006 -9999.0 CA NA Coopermine      ARC COPPERMINE,
+ 168 11000    30.25  46.25    66100.0      9.868    56.9 1900 1985     2.0 MD EU Dnestr          MED Bendery (Be
+ 169 10000    -9.25  39.25    67490.0      9.981    72.0 1913 1990   200.0 PT EU Tagus (Tejo, Ta ATL Almourol, P
+ 170 13378   -44.25  -2.75    50800.0      7.455    42.6 1968 2006    15.0 BR SA Itapecuru       ATL Cantanhede,
+ 171 10000   147.25 -19.75   129450.0      8.897    77.7 1921 2000     9.0 QX AU Burdekin        PAC Clare, Aust
+ 172 11059   139.25 -35.25   991000.0      8.518    69.9 1930 2000    48.6 VX AU Murray          IND Euston weir
+ 173 10120   161.25  68.25    49600.0      8.415    23.0 1978 2000 -9999.0 RU AS Bolshoy Anyuy   ARC Konstantino
+ 174 10000  -105.25  21.75   128943.0      8.375    26.0 1956 1981    39.0 MX NA Grande de Santi PAC El Capomal,
+ 175 10000    -4.75   5.25    95500.0      8.300    38.0 1954 1991    13.0 CI AF Bandama         ATL Tiassalé, I
+ 176 10000    79.75  10.75    74004.0      7.702     5.0 1971 1979    58.0 IN AS Cauvery         IND Grand Anicu
+ 177 12295    42.75   0.75   179520.0      6.086    25.8 1951 1979 -9999.0 SO AF Juba            IND Luug (Lugh,
+ 178 10000   150.75 -23.25   135860.0     13.822    85.7 1914 2001 -9999.0 QX AU Fitzroy-QX      PAC The Gap, Au
+ 179 10597   -95.25  29.25   116568.0      6.704    87.5 1903 2006     8.5 US NA Brazos          ATL Richmond, T
+ 180 11333    -3.75   5.25    66500.0      5.776    41.8 1953 1994   120.0 CI AF Comoé (Komoé)   ATL Aniassué, I
+ 181 17838   -37.75  -4.75    48200.0      3.692    32.1 1961 2006    50.0 BR SA Jaguaribe       ATL Peixe Gordo
+ 182 10000   130.25 -13.25    46600.0      7.651    31.8 1969 2001    15.0 NT AU Daly            IND Mt Nancar, 
+ 183 10000     2.25   6.75    46990.0      5.443    33.8 1948 1992 -9999.0 BJ AF Ouémé           ATL Bonou, Beni
+ 184 10833    -7.25  37.25    60883.0      4.874    43.9 1946 1990    30.0 PT EU Guadiana        ATL Pulo do Lob
+ 185 10870  -129.25  69.75    56300.0      4.619    30.4 1969 2006 -9999.0 CA NA Anderson        ARC d/s Carnwat
+ 186 15313   129.75 -15.25    44900.0      4.205    39.5 1953 2001    40.0 NT AU Victoria        IND Coolibah Ho
+ 187 20000   135.25 -14.75    47400.0      3.147    32.8 1966 2001    15.5 AU AU Roper           PAC Red Rock, A
+ 188 13143   122.25  40.75   120764.0      3.512    56.8 1938 2000 -9999.0 CN AS Liao            PAC Chiling, Ch
+ 189 10000    16.75 -28.25   850530.0      6.884    65.2 1935 2001 -9999.0 ZA AF Orange (Senqu)  ATL Vioolsdrift
+ 190 10488   -38.75 -12.75    53866.0      4.060    56.1 1964 2006    50.0 BR SA Paraguacu       ATL Pedra do Ca
+ 191 10000   -39.25 -14.25    56290.0      3.415    70.1 1935 2006    50.0 BR SA Contas [de]     ATL Ubaitaba, B
+ 192 10313    -6.25  36.75    46995.0      9.966    75.9 1913 1994    10.0 ES EU Guadalquivir    ATL Alcala del,
+ 193 13200  -110.25  27.75    57908.0      2.478     4.0 1976 1979   480.0 MX NA Yaqui           PAC El Novillo,
+ 194 10000   -95.75  28.75   108787.0      2.583    74.7 1919 2006    16.0 US NA Colorado-TX     ATL Wharton, TX
+ 195 10000   -97.25  25.75   456700.0      1.499    67.0 1934 2000 -9999.0 US NA Rio Grande (Bra ATL Matamoros, 
+ 196 10000   118.75 -20.25    49895.0      1.447    22.7 1974 2000    26.0 WX AU de Grey         IND Coolenar Po
+ 197 10000   113.75 -24.75    73545.0      0.718    41.3 1957 1998    16.9 WX AU Gascoyne        IND Nine Mile B
+ 198 17500   115.75 -31.75   118200.0      0.374    29.8 1970 2000    20.3 WX AU Avon            IND Walyunga, A
+ 199 10000   116.25 -21.25    48945.0      0.265    29.8 1968 1998 -9999.0 WX AU Fortescue       IND Jimbegnyino
+ 200 10000   114.25 -27.75    84880.0      0.175    31.5 1967 1999 -9999.0 WX AU Murchison       IND Emu Springs
+ 201 10000   -92.75  18.25    37702.0     16.920    32.6 1947 1981    18.0 MX NA Grijalva        ATL Reforma    
+ 202 10000   -67.58  57.88    29800.0     15.975    38.5 1956 1999    26.0 CA NA Baleine (R à la ATL pres de l'e
+ 203 10000  -155.90  59.33    16835.0     15.997    20.2 1967 1987    13.7 AK NA Kvichak         PAC Igiugig, AK
+ 204 10000   138.80  37.30     9719.0     15.856    50.0 1951 2000    40.0 JP AS Shinano         PAC Ojiya      
+ 205 10000  -124.00  41.51    31339.0     15.941    63.3 1910 1999 -9999.0 US NA Klamath         PAC Klamath, CA
+ 206 10000    21.67  65.80    24707.0     15.811   102.0 1900 2003    11.0 SE EU Lule            ATL Boden Water
+ 207 10000   -59.60  50.70    19100.0     15.465    13.9 1965 1980    50.0 CA NA Petit Mecatina  ATL WSC site 02
+ 208 10000   -53.70  -0.42    30945.0     15.451    16.3 1973 1989 -9999.0 BR SA Parú de Este    ATL Fazenda Paq
+ 209 10000    45.53 -19.80    17990.0     15.499     3.3 1980 1983 -9999.0 MG AF Mania           IND Ankotrofots
+ 210 10000   137.50  52.70    41000.0     15.224    44.4 1941 1985    92.0 RU AS Amgun           PAC Guga       
+ 211 10000   -84.68  13.07    15073.0     15.803    10.7 1971 1982 -9999.0 NI CA Grande de Matag ATL San Pedro d
+ 212 10000   -72.61  41.99    25019.0     15.025    72.4 1928 2000    11.7 US NA Connecticut     ATL Thompsonvil
+ 213 10000   -46.32  -1.80    31064.0     14.984    26.8 1972 1999 -9999.0 BR SA Gurupi          ATL  Alto Bonit
+ 214 10000   141.53  43.12    12697.0     14.910    47.0 1954 2000 -9999.0 JP AS Ishikari        PAC Ishikari-Oh
+ 215 10000   -66.18  50.35    19000.0     13.189    34.8 1965 2000    17.0 CA NA Moisie          ATL 5.1 km u/s 
+ 216 10000   -47.84 -24.49    20855.0     14.480    46.3 1953 1999    10.0 BR SA Ribeira do Igua ATL Registro 4F
+ 217 10000   171.70 -41.83     6350.0     14.394     9.8 1964 1984    25.0 NZ PO Buller          PAC Te Kuha    
+ 218 10000    10.12   3.57    26400.0     14.084    25.8 1951 1977    35.0 CM AF Nyong           ATL Déhané     
+ 219 10000   120.33  28.15    13560.0     14.063    36.0 1951 1986 -9999.0 CN AS Oujiang         PAC Yuren      
+ 220 10000    34.55 -21.15   100885.0     13.982     3.8 1976 1979    20.0 MZ AF Save (Sabi)     IND Vila Franca
+ 221 10000  -160.13  66.97    24657.0     13.566    25.6 1976 2003    10.7 AK NA Kobuk           ARC nr Kiana, A
+ 222 10000    46.85 -17.42    18550.0     13.832    32.6 1948 1982 -9999.0 MG AF Ikopa           IND Antsatrana 
+ 223 10000    45.47 -19.52    14375.0     13.897     2.0 1981 1983 -9999.0 MG AF Mahajilo        IND Miandrivazo
+ 224 10000   -84.40  11.02    28600.0     12.435    10.5 1969 1989    26.0 NI CA San Juan        ATL El Castillo
+ 225 10000   -94.87  17.43     9224.0     13.041     4.0 1976 1979    20.0 MX NA Coatzacoalcos   ATL Las Perlas 
+ 226 10000   -61.59  50.19    16000.0     11.235    13.6 1962 1975     5.0 CA NA Natashquan      ATL pres de l'e
+ 227 10000   -21.00  63.94     5760.0     12.577    41.5 1950 1992    12.0 IS EU Hvita (Olfusa)  ATL Selfoss    
+ 228 10000   -81.83  31.65    35224.0     12.491    67.0 1931 1998     7.5 US NA Altamaha        ATL Doctortown,
+ 229 10000   -73.69  42.75    20953.0     12.410    51.8 1946 1998     0.1 US NA Hudson          ATL Green Islan
+ 230 10000   -68.40  49.15    18900.0     12.341    57.3 1922 1979    58.0 CA NA Outardes (R aux ATL Centrale de
+ 231 10000  -133.70  58.54    17094.0     12.247    12.2 1987 1999    15.2 AK NA Taku            PAC nr Juneau, 
+ 232 10000   -72.97 -40.32     3714.0     12.231    35.6 1929 1966 -9999.0 CL SA Bueno           PAC Bueno      
+ 233 10000    73.03  22.30    33670.0     12.073    11.0 1968 1979 -9999.0 IN AS Mahi            IND Sevalia    
+ 234 10000   -49.07 -26.92    11803.0     12.082    57.0 1939 1999    12.0 BR SA Itajai-Acu      ATL Blumenau (P
+ 235 10000    13.08  -4.11    23385.0     11.966    15.0 1969 1983   105.0 CG AF Niari           ATL Loudima    
+ 236 10000    17.27  63.17    30639.0     12.935    95.0 1909 2003     4.0 SE EU Angerman        ATL Solleftea  
+ 237 10000   -20.63  63.93     7200.0     11.470    44.6 1947 1993    44.0 IS EU Thjorsa         ATL Urridafoss 
+ 238 10000   -88.70  13.43    18176.0     11.433    14.2 1965 1980     5.0 SV CA Lempa           ATL San Marcos 
+ 239 10000   111.83  -7.10    12804.0     11.507     9.0 1983 1991 -9999.0 ID AS Solo (Bengawan  PAC Bojonegoro 
+ 240 10000  -162.94  67.57    31079.8     11.099     3.3 1965 1971 -9999.0 AK NA Noatak          ARC NOATAK R AT
+ 241 10000   140.07  38.75     6271.0     11.526    23.0 1959 2000 -9999.0 JP AS Mogami          PAC Takaya     
+ 242 10000   -71.90  59.98    26900.0     10.925    20.9 1962 1983    30.0 CA NA Arnaud (Payne)  ATL en amont de
+ 243 10000   -81.26  32.53    25511.0     10.779    67.3 1929 2000     4.1 US NA Savannah        ATL Clyo, GA   
+ 244 10000   -83.47   8.95     4767.0     10.496    14.7 1965 1979    13.0 CR CA Grande de Terra ATL Palmar     
+ 245 10000   -74.78  40.22    17560.0     10.477    86.0 1912 1998     0.0 US NA Delaware        ATL Trenton, NJ
+ 246 10000    34.15 -19.95    26314.0     10.516     1.8 1976 1977    35.0 MZ AF Buzi            IND Estaquinha 
+ 247 10000     5.43  51.81    29000.0     10.295    74.0 1911 1984     8.0 NL EU Maas (Meuse)    ATL Lith       
+ 248 10000   -77.13  38.95    29940.0     10.211    70.8 1930 2000    11.6 US NA Potomac         ATL  Washington
+ 249 10000   136.74  35.31     4956.0      8.811    19.9 1959 1997 -9999.0 JP AS Kiso            PAC Okoshi     
+ 250 10000    19.62  42.01    12368.0     10.049     4.0 1965 1968    19.0 AL EU Drini           MED Vau i Dejes
+ 251 10000   -52.05 -31.01    15543.0      9.994    30.8 1964 1996    24.0 BR SA Camaqua         ATL Passo do Me
+ 252 10000     9.13  52.97    37788.0      9.981    66.0 1921 1986     5.0 DE EU Weser           ATL Intschede  
+ 253 10000   175.15 -37.67    11395.0      9.847     8.9 1976 1984    25.0 NZ PO Waikato         PAC Ngaruawahia
+ 254 10000    86.57  22.45    15152.0      9.791    10.7 1964 1974 -9999.0 IN AS Subarnarekha    IND Kokpara    
+ 255 10000     9.97   4.46     8250.0      9.734    26.0 1951 1977    12.0 CM AF Wouri           ATL Yabassi    
+ 256 10000     9.92  59.90    16020.0      9.703    62.8 1912 1974 -9999.0 NO EU Dramselv        ATL Dovikfoss  
+ 257 10000   -80.00  -1.70     8690.0      8.331    20.9 1970 1994    20.0 EC SA Daule           PAC La Capilla 
+ 258 10000    26.82  60.69    36535.0      9.575   102.0 1900 2001    19.0 FI EU Kymi            ATL Pernoo (Anj
+ 259 10000    96.47  18.92    14660.0      9.434  -999.0 -999 -999     0.0 MM AS Sittang         IND IND Toungoo
+ 260 10000    87.37  23.43    19220.0      9.351    40.7 1934 1979 -9999.0 IN AS Damodar         IND Rhondia    
+ 261 10000    -8.38  42.08    15457.0      7.878    59.8 1914 1990     9.0 PT EU Minho (Mino)    ATL Foz do Mour
+ 262 10000   128.85  35.40    22916.0      9.149    19.0 1953 1972 -9999.0 KR AS Nagdong (Nakdon PAC Samnangjin 
+ 263 10000   -77.48   1.62    13147.0      9.166    12.4 1971 1984   380.0 CO SA Patía           PAC Pte Pusmeo 
+ 264 10000   -51.52  -3.77    23070.0      9.169    11.1 1977 1989 -9999.0 BR SA Bacaja          ATL Fazenda Cip
+ 265 10000   -89.82  30.79    17024.0      9.086    59.0 1938 1997    16.8 US NA Pearl           ATL Bogalusa, L
+ 266 10000   -88.72  30.98    17068.0      9.028    69.0 1930 1999     8.0 US NA Pascagoula      ATL Merrill, MS
+ 267 10000   -79.55  34.20    22870.0      9.008    60.0 1938 1998     7.5 US NA Pee Dee         ATL Pee Dee, SC
+ 268 10000    34.48  64.93    27700.0      8.370    63.9 1917 1988 -9999.0 RU EU Kem             ARC Putkinskaya
+ 269 10000   167.80 -45.20     3302.0      8.826    37.4 1932 1969 -9999.0 NZ PO Waiau (S)       SOC Lake Te Ana
+ 270 10000   161.25  69.25    26700.0      8.417    39.5 1944 1987 -9999.0 RU AS Anadyr Kolyma   ARC Amguema at 
+ 271 10000    11.30   2.30    18100.0      8.697    26.5 1953 1979   500.0 CM AF Ntem            ATL Ngoazik    
+ 272 10000    99.83  13.56    26449.0      8.650    31.5 1965 1996 -9999.0 TH AS Mae Klong       PAC Ban Wang Kh
+ 273 10000   121.68  16.60     4244.0      8.562     5.5 1969 1974    92.0 PH AS Cagayan         PAC Pangal     
+ 274 10000   135.63  34.80     7281.0      8.455    43.0 1953 2000     7.0 JP AS Yodo            PAC Hirakata   
+ 275 10000    46.93 -16.93    11800.0      8.563    12.0 1957 1969 -9999.0 MG AF Betsiboka       IND Ambodiroka 
+ 276 10000  -178.70  67.67    26400.0      8.411    41.5 1944 1987 -9999.0 RU AS Amguema         ARC mosta 174 k
+ 277 10000   114.64   3.97     3210.0      8.364     8.8 1977 1987 -9999.0 MY AS Tutoh           PAC Long Terawa
+ 278 10000    34.67  64.48    26600.0      8.270    12.0 1962 1973 -9999.0 RU EU Nyzhny Vig (Sor ARC Vigostrov  
+ 279 10000  -122.91  46.28     5796.0      8.237    70.3 1926 2001     6.2 US NA Cowlitz         PAC Castle Rock
+ 280 10000   148.70  -9.35     4210.0      8.267     6.1 1958 1964 -9999.0 PG PO Musa            PAC Nadi Jabuna
+ 281 10000    34.50  64.43    26500.0      8.191    33.0 1956 1988 -9999.0 RU EU Belomorkanal    ARC Matkozh    
+ 282 10000   120.82  15.15     6487.0      7.269    30.8 1946 1977     1.0 PH AS Pampanga        PAC San Agustin
+ 283 10000   117.29   5.30     5730.0      7.797    11.3 1970 1985 -9999.0 MY AS Milan           PAC Tangkulap, 
+ 284 10000   -71.08 -35.70     5454.0      7.750    76.9 1915 1993 -9999.0 CL SA Maule           PAC Armerillo  
+ 285 10000   -82.25  53.25    24200.0      7.700    28.8 1965 1994   240.0 CA NA Attawapiskat    ATL d/s Attawap
+ 286 10000   -76.20  56.86    12500.0      7.653    18.3 1974 1993 -9999.0 CA NA Nastapoca       ATL pres de l'e
+ 287 10000    46.97 -22.93    14160.0      7.615    16.2 1960 1978 -9999.0 MG AF Mananara        IND Maroangaty 
+ 288 10000   -93.74  30.30    24162.0      7.540    75.0 1924 1999     1.2 US NA Sabine          ATL Ruliff, TX 
+ 289 10000   125.58 -18.21    46530.0      7.116    44.8 1955 2000   110.9 WX AU Fitzroy-WX      IND Fitzroy Cro
+ 290 10000   -77.63  36.46    21720.0      7.341    87.8 1912 1999    13.4 US NA Roanoke         ATL Roanoke Rap
+ 291 10000    11.83  45.10    11954.0      7.163    57.0 1922 1979     9.0 IT EU Adige (Etsch)   MED Boara Pisan
+ 292 10000   103.05   5.13     3340.0      7.040    26.5 1961 1991    12.0 MY AS Trengganu       IND Kampung Tan
+ 293 10000    12.48  41.90    16545.0      7.045    77.3 1921 1998     1.0 IT EU Tiber (Tevere)  MED Ripetta (Ro
+ 294 10000    35.63  36.97    20466.0      7.022    13.3 1970 1983    13.0 TR AM Ceyhan          MED Misis      
+ 295 10000   -94.85  30.42    44512.0      7.003    75.4 1924 1999     7.9 US NA Trinity         ATL Romayor, TX
+ 296 10000   -71.30  42.65    12005.0      6.891    76.3 1923 1999     1.6 US NA Merrimack       ATL Lowell, MA 
+ 297 10000   175.15 -39.77     6643.0      6.844    38.5 1951 1990    15.0 NZ PO Wanganui        PAC Paetawa    
+ 298 10000   -51.37   3.05     4018.0      6.811     6.3 1984 1994 -9999.0 BR SA Cacipore        ATL Retiro Sant
+ 299 10000    -9.53   7.33     9760.0      6.735     3.0 1973 1975 -9999.0 LR AF St Paul         ATL Walker Brid
+ 300 10000  -123.55  43.59     9539.0      6.700    94.0 1905 1999    27.6 US NA Umpqua          PAC Elkton, OR 
+ 301 10000  -124.10  40.49     8063.0      6.630    87.0 1910 1999    10.8 US NA Eel             PAC Scotia, CA 
+ 302 10000    81.10   7.92     7343.0      6.501    42.8 1942 1984    31.0 LK AS Mahaweli Ganga  IND Manampitiya
+ 303 10000   115.92   5.12     7718.0      6.464    11.7 1969 1985 -9999.0 MY AS Pedas           PAC Tenom      
+ 304 10000   100.97   4.82     7770.0      7.016    39.3 1960 2000    45.0 MY AS Perak           IND Iskandar Br
+ 305 10000   -82.93  29.96    20409.0      6.309    68.3 1931 1999     1.5 US NA Suwannee        ATL Branford, F
+ 306 10000   -45.46  -3.66    34030.0      6.298    27.3 1972 1999     4.0 BR SA Pindare         ATL Pindare Mir
+ 307 10000   -97.25  20.40     7172.0      6.255     4.0 1976 1979    32.0 MX NA Tecolutla       ATL Remolino   
+ 308 10000    -1.63   5.17    22714.0      6.216    14.0 1965 1978 -9999.0 GH AF Pra             ATL Daboasi    
+ 309 10000   -77.55  37.56    17503.0      6.254    65.0 1934 1999    30.1 US NA James           ATL Richmond, V
+ 310 10000   -47.84 -24.38     5390.0      4.134    29.8 1937 1979 -9999.0 BR SA Juquia          ATL Barranco Al
+ 311 10000   -71.68 -33.98    13186.0      6.077    65.1 1917 1982    17.0 CL SA Rapel           PAC Corneche   
+ 312 10000   -78.82   9.18     3612.0      6.035    11.0 1965 1975 -9999.0 PA CA Bayano          ATL Calle Larga
+ 313 10000   -16.42  65.83     7000.0      6.009    52.2 1939 1991   320.0 IS EU Jökulsá á Fjöll ATL Dettifoss (
+ 314 10000   112.20  -7.48     8650.0      5.815    33.0 1951 1983 -9999.0 ID AS Brantas         PAC Jabon      
+ 315 10000   -76.64  53.65    10900.0      5.786    18.3 1960 1978 -9999.0 CA NA Sakami          ATL South and E
+ 316 10000   -87.23  30.97     9886.0      5.683    65.0 1934 1999     8.6 US NA Escambia        ATL Century, FL
+ 317 10000   -94.09  30.36    20593.0      5.668    80.9 1904 1999     2.5 US NA Neches          ATL Evadale, TX
+ 318 10000    -3.39  56.52     4587.0      5.649    49.0 1952 2000    26.2 UK EU Tay             ATL Ballathie  
+ 319 10000    -8.42  52.80    11690.0      5.604    44.0 1934 1979    32.0 IE EU Shannon         ATL Killaloe   
+ 320 10000   -70.21  44.07     8451.0      5.525    71.0 1928 1999    33.3 US NA Androscoggin    ATL nr Auburn, 
+ 321 10000    79.88   6.95     2085.0      5.468    35.7 1925 1960 -9999.0 LK AS Kelani Ganga    IND Nagalagam S
+ 322 10000    -7.45   5.87    13750.0      5.439    36.0 1955 1991   149.0 CI AF Cavally (Cavall ATL Tai        
+ 323 10000   137.21  36.70     2688.0      4.914     9.0 1986 2000     0.0 JP AS Jintsu          PAC Jintsuohash
+ 324 10000   117.23   5.85     4000.0      5.425    13.5 1969 1984 -9999.0 MY AS Labuk           PAC Porog, Saba
+ 325 10000   -97.62  16.28    17617.0      5.327     6.0 1976 1981    50.0 MX NA Atoyac (Verde)  PAC Paso de la 
+ 326 10000  -124.06  42.58    10202.0      5.348    39.0 1960 1999    34.7 US NA Rogue           PAC Agness, OR 
+ 327 10000    41.13  67.09    15200.0      5.305    37.2 1935 1977 -9999.0 RU EU Ponoy           ARC Ponoy      
+ 328 10000   -52.35   3.17     5920.0      5.271     6.0 1960 1965 -9999.0 GF SA Camopi          ATL Camopi     
+ 329 10000    28.08  70.11    14005.0      5.274    88.0 1911 2000 -9999.0 NO EU Tana (Teno)     ARC Polmak     
+ 330 10000   120.60  15.90     2209.0      5.216     8.3 1969 1977    26.0 PH AS Agno            PAC Carmen     
+ 331 10000    48.44  31.48    45882.0      5.246    25.8 1948 1985    30.0 IR AS Karkheh (Al Kar IND Hamidiyeh  
+ 332 10000    76.75  10.17     5387.0      5.108    11.0 1968 1979    32.0 IN AS Periyar         IND Planchode  
+ 333 10000    23.58  67.23    14408.0      5.035    65.0 1911 1975 -9999.0 SE EU Muonio          ATL Kallio     
+ 334 10000   131.38  31.94     2126.0      4.859     9.0 1986 2000 -9999.0 JP AS Oyodo           PAC Kashiwada  
+ 335 10000    39.67  -0.44    42217.0      4.944    55.0 1934 1994   137.0 KE AF Tana            IND Garissa    
+ 336 10000    29.00  69.02    14600.0      4.944    12.0 1956 1967 -9999.0 RU EU Patsjoki        ARC Ges Rayakos
+ 337 10000   -13.73  13.47    42000.0      4.724    21.8 1970 1994 -9999.0 SN AF Gambie          ATL Gouloumbou 
+ 338 10000   127.13  41.53    18245.0      4.689    20.0 1965 1984   416.0 KP AS Amnok (Yalu)    PAC Kumchang   
+ 339 10000   126.86  36.31     8261.0      4.692     4.0 1976 1979     1.0 KR AS Kum (Geum)      PAC Gyu Am     
+ 340 10000   146.11  -7.81     2410.0      4.680     7.3 1952 1984    46.0 PG PO Tauri           PAC Hells Gate 
+ 341 10000   -78.47   0.87     4960.0      4.547    21.7 1964 1988   510.0 EC SA Mira            PAC d.j. Lita  
+ 342 10000    49.05 -13.20     3210.0      4.696    19.4 1963 1986 -9999.0 MG AF Mahavavy Nord   IND Ambilobe   
+ 343 10000   -43.63 -22.82     1353.0      4.629     6.9 1963 1970    19.0 BR SA Guandu-2        ATL Ponte do Gu
+ 344 10000    15.64  63.84     6432.0      4.603    67.0 1909 1975 -9999.0 SE EU Faxaelven       ATL Ulriksfors 
+ 345 10000    19.81  40.38     5420.0      4.601    20.0 1965 1984    64.0 AL EU Vjosa           MED Doreze     
+ 346 10000    -2.75   5.12    15800.0      4.543    13.5 1965 1978     2.0 GH AF Tano            ATL Alanda     
+ 347 10000   -82.33   8.42     1337.0      4.517    20.0 1965 1984    10.0 PA CA Chiriquí        PAC Interameric
+ 348 10000   -78.00  -9.00    15000.0      4.532    27.0 1938 1968 -9999.0 PE SA Santa           PAC Pte Carrete
+ 349 10000    99.12  14.43    10880.0      4.431    37.0 1952 1989 -9999.0 TH AS Khwae Yai       PAC Srinagarind
+ 350 10000   132.30  34.99     3807.0      4.804     9.0 1986 2000    -1.0 JP AS Gono            PAC Kawahira   
+ 351 10000   -78.82  34.83    12566.7      4.444    63.3 1937 2000     8.8 US NA Cape Fear       ATL Wilm O Husk
+ 352 10000   -53.83   3.42     7650.0      4.504    15.6 1956 1983 -9999.0 GF SA Tampoc          ATL Degrad-Roch
+ 353 10000   134.20  34.05     2768.0      4.907    26.3 1959 2000 -9999.0 JP AS Yoshino         PAC Iwazu      
+ 354 10000   147.18  -9.05     1940.0      4.384     8.1 1954 1964 -9999.0 PG PO Vanapa          PAC Peto Island
+ 355 10000   158.40  53.18     4750.0      4.278    54.5 1930 1987     7.0 RU AS Avacha          PAC Yelizovo   
+ 356 10000    48.45 -13.68     2980.0      4.315    27.3 1953 1983 -9999.0 MG AF Sambirano       IND Ambanja    
+ 357 10000   -47.10  -1.56     6760.0      4.276    34.9 1965 1999 -9999.0 BR SA Guama           ATL Bom Jardim 
+ 358 10000    34.18 -19.02    15046.0      4.278     3.8 1976 1979    60.0 MZ AF Pungoe          IND Bue-Maria  
+ 359 10000   -78.72  49.95    10000.0      4.207     1.9 1968 1972 -9999.0 CA NA Harricana       ATL South and E
+ 360 10000   -54.27  -2.78    17982.0      4.227    23.2 1970 1997 -9999.0 BR SA Curua-Una       ATL jusante da 
+ 361 10000    68.73  66.03    15100.0      4.124    45.2 1953 1999 -9999.0 RU AS Poluy           ARC Poluy      
+ 362 10000   -49.21  -3.51     3622.0      4.191    15.6 1982 1999 -9999.0 BR SA Moju            ATL Cachoeira T
+ 363 10000   -64.95 -38.82    22300.0      4.155    82.5 1918 2000   122.0 AR SA Colorado-SA     ATL Pichi Mahui
+ 364 10000   -54.87  -1.50    20803.0      4.122    24.8 1973 1998 -9999.0 BR SA Curua           ATL Boca do Inf
+ 365 10000  -121.26  37.68    35058.0      4.141    73.9 1923 1999     7.6 US NA San Joaquim     PAC Vernalis, C
+ 366 10000   173.96 -41.44     3430.0      4.104    23.0 1961 1983 -9999.0 NZ PO Wairau          PAC Tuamarina  
+ 367 10000   118.75  39.72    44100.0      4.129    51.2 1929 1988 -9999.0 CN AS Luanhe          PAC Luanxian   
+ 368 10000   -51.60   0.97     3500.0      4.100     3.2 1979 1982 -9999.0 BR SA Falsino         ATL Ramos      
+ 369 10000   -79.34  54.42     9560.0      4.057     7.4 1973 1982 -9999.0 CA NA Roggan          ATL pres de l'e
+ 370 10000   -50.63  -3.84     2682.0      4.098    15.1 1981 1999 -9999.0 BR SA Pacajas         ATL Pacajas    
+ 371 10000   138.23  36.62     2335.0      4.067     3.9 1959 1963 -9999.0 JP AS Sai             PAC Koizumi    
+ 372 10000   -94.05  67.52    18100.0      4.051    19.4 1971 1992 -9999.0 CA NA Hayes           ARC u/s Chantre
+ 373 10000    74.75  15.25     1393.0      4.020    10.0 1968 1979 -9999.0 IN AS Kalinadi (Kali  IND Dundeli    
+ 374 10000   -43.90  -3.46    12350.0      3.993    26.8 1963 1999     5.0 BR SA Munim           ATL Nina Rodrig
+ 375 10000   121.65  14.74      879.0      3.964     5.0 1969 1974     7.0 PH AS Agus            PAC Infanta, Qu
+ 376 10000   -72.75 -40.57     3714.0      3.939    17.6 1942 1959 -9999.0 CL SA Pilmaiquen      PAC Pasado El S
+ 377 10000  -108.82  66.74    16800.0      4.121    26.3 1976 2004 -9999.0 CA NA Burnside        ARC nr mouth   
+ 378 10000    45.10  65.82    12000.0      3.875    61.8 1933 1994    12.0 RU EU Peza            ARC Igumnovo   
+ 379 10000    95.30  22.54    12499.0      3.866    21.0 1946 1967 -9999.0 MM AS Mu              IND Kabo weir  
+ 380 10000    16.53  62.43    11460.0      3.839    67.0 1909 1975 -9999.0 SE EU Ljungan         ATL Nederede   
+ 381 10000    44.91 -19.14     1893.0      3.842     9.6 1971 1988 -9999.0 MG AF Manambolo       IND Ambatolahy 
+ 382 10000   120.75  23.83     2311.0      3.795     4.0 1965 1968   196.0 TW AS Cho-Shui        PAC Chi-Chi    
+ 383 10000  -123.31  46.94     3351.0      3.695    45.1 1952 1999     7.2 US NA Chehalis        PAC Porter, WA 
+ 384 10000  -150.02  62.33     5180.0      3.593    37.3 1964 2001   121.9 US NA Talkeetna       PAC Talkeetna R
+ 385 10000    99.14   9.14     5200.0      3.622    15.5 1969 1984     4.0 TH AS Tapi-TH         PAC Surat Thani
+ 386 10000   -54.40  -1.78    17072.0      3.605    25.3 1972 1998 -9999.0 BR SA Maicuru         ATL Arapari    
+ 387 10000   -71.55 -36.57     1709.0      3.587    41.0 1948 1989 -9999.0 CL SA Nuble           PAC San Fabian 
+ 388 10000   130.48  33.32     2315.0      3.591    51.0 1950 2000     2.0 JP AS Chikugo         PAC Senoshita  
+ 389 10000    47.73 -21.00     2260.0      3.570    14.6 1956 1981 -9999.0 MG AF Mananjary       IND Antsindra  
+ 390 10000   -14.37  65.50     2800.0      3.750    53.3 1949 2002    13.0 IS EU Lagarfljot      ATL Lagarfoss  
+ 391 10000    68.67  67.27    10600.0      3.474    18.7 1944 1990 -9999.0 RU AS Shuch'ya        ARC Shchuch'ye 
+ 392 10000    26.20  41.80    20857.0      3.468    49.0 1936 1985 -9999.0 BG EU Maritza (Meric, MED Svilengrad 
+ 393 10000   -99.63  16.93     7067.0      3.402     4.0 1976 1979   134.0 MX NA Papagayo        PAC La Parota  
+ 394 10000   -70.40 -33.58     4968.0      3.375    42.4 1946 1989 -9999.0 CL SA Maipo           PAC El Manzano 
+ 395 10000   -44.77  -4.22    25500.0      3.377    23.6 1975 1999     9.0 BR SA Mearim          ATL  Bacabal   
+ 396 10000    49.25 -18.18     2545.0      3.367    30.9 1953 1983 -9999.0 MG AF Ivondro         IND Ringaringa 
+ 397 10000   -45.22  -3.77    20700.0      3.353    27.6 1970 1999     9.0 BR SA Grajau          ATL Aratoi Gran
+ 398 10000    35.33  68.45     8640.0      3.307    31.6 1959 1992 -9999.0 RU EU Voroniya        ARC Serebryansk
+ 399 10000     1.58   6.91    21475.0      3.470    37.0 1944 1992    42.0 BJ AF Mono            ATL Athiémé    
+ 400 10000    32.73 -25.02    37600.0      3.351     3.9 1976 1979    14.0 MZ AF Incomati (Komat IND Chobela    
+ 401 10000   -77.96  58.50    11200.0      3.254     8.3 1975 1984 -9999.0 CA NA Innuksuac (Innu ATL pres de l'e
+ 402 10000   -36.89  -5.62    37600.0      3.204    14.7 1985 1999    65.0 BR SA Piranhas (Acu)  ATL Sitio Acaua
+ 403 10000   -40.35 -17.83    14174.0      3.161    56.8 1943 1999 -9999.0 BR SA Mucuri          ATL Nanuque    
+ 404 10000   -52.80  -2.22    10000.0      3.171     3.3 1981 1984 -9999.0 BR SA Jarauacu        ATL Fazenda Boa
+ 405 10000   -92.15  14.68     1139.0      3.138    25.0 1955 1981    90.0 MX NA Suchiate        PAC Suchiate Ii
+ 406 10000    31.39 -29.14    28920.0      2.798    50.7 1950 2001     7.0 ZA AF Tugela          IND Mandini    
+ 407 10000    27.40  37.76    23889.0      3.110     7.8 1976 1983     8.0 TR AM Bueyuek Mendere MED Soeke (Soke
+ 408 10000    45.98 -21.32     6510.0      3.104    17.0 1952 1969 -9999.0 MG AF Mananantanana   IND Tsitondroin
+ 409 10000   108.72  -7.46     2515.0      3.063    35.0 1957 1991 -9999.0 ID AS Citanduy        IND Cikawung   
+ 410 10000   -41.16 -19.49     8810.0      3.052    56.9 1938 1998 -9999.0 BR SA Manhuacu        ATL Sao Sebasti
+ 411 10000   -69.82  19.15     5115.0      3.035     8.5 1976 1984     8.0 DO CB Yuna            ATL El Limon   
+ 412 10000    32.43 -26.78    28500.0      3.066     3.9 1976 1979    11.0 MZ AF Maputo          IND Madubula   
+ 413 10000   -52.65 -31.90     5370.0      3.014    20.1 1961 1983    15.0 BR SA Piratini        ATL Passo do Ri
+ 414 10000   -81.63   8.07     1070.0      3.006    20.0 1965 1984    15.0 PA CA Tabasará        PAC Camaron    
+ 415 10000   -51.15 -29.76     3131.0      2.987    20.0 1973 1998    -0.5 BR SA Sinos [dos]     ATL Sao Leopold
+ 416 10000    51.13  67.03     8500.0      2.969    69.7 1928 1998     8.0 RU EU Sula            ARC Kotkina    
+ 417 10000    10.42  63.33     3079.0      2.891     5.0 1965 1969 -9999.0 NO EU Nidelv N1       ATL Nordsetfoss
+ 418 10000   -51.37  -3.62     2682.0      2.926     1.7 1981 1983 -9999.0 BR SA Anapu           ATL Fazenda San
+ 419 10000   -41.62 -21.49     7270.0      2.881    42.8 1954 1999    28.0 BR SA Muriae          ATL Cardoso Mor
+ 420 10000    -9.06  53.27     3114.0      2.882     7.0 1973 1979 -9999.0 IE EU Corrib          ATL Galway     
+ 421 10000    10.54  43.68     8186.0      2.882    67.3 1924 1998     6.7 IT EU Arno            MED San Giovann
+ 422 10000    28.60  59.38    12800.0      2.827    41.7 1944 1985     0.0 RU EU Luga            ATL Kingisepp  
+ 423 10000    -5.24  34.59     6190.0      2.838    37.3 1951 1990    85.0 MA AF Ouergha         ATL M'Jara     
+ 424 10000   177.13 -39.06     2360.0      2.786     9.8 1957 1966 -9999.0 NZ PO Mohaka          PAC Raupunga   
+ 425 10000   -81.38  29.01     7941.0      2.773    67.3 1933 2000     0.0 US NA St Johns        ATL Deland, FL 
+ 426 10000   -41.92 -18.53    11191.0      2.778    37.0 1938 1975 -9999.0 BR SA Suacui Grande   ATL Vila Matias
+ 427 10000   -80.98   8.24     1505.0      2.753    19.9 1965 1984    55.0 PA CA Santa María     PAC San Francis
+ 428 10000    -1.08  52.95     7486.0      2.759    16.5 1965 1999    16.0 UK EU Trent           ATL Colwick    
+ 429 10000   -84.92  53.80    10400.0      2.722    25.1 1967 1993 -9999.0 CA NA Ekwan           ATL d/s North W
+ 430 10000     7.25  52.73     8345.0      2.692     7.0 1980 1986     7.0 DE EU Ems             ATL Versen     
+ 431 10000    -8.17  54.50     4375.0      2.697     6.0 1973 1979 -9999.0 IE EU Erne            ATL Ballyshanno
+ 432 10000    21.07  54.64    13600.0      2.689    70.0 1901 1985     5.0 RU EU Pregolya        ATL Gvardeysk  
+ 433 10000   118.18  25.05     2466.0      2.641    29.0 1951 1979 -9999.0 CN AS Jinjiang        PAC Anxi       
+ 434 10000  -104.14  67.70    16900.0      2.645    30.5 1971 2004 -9999.0 CA NA Ellice          ARC nr mouth   
+ 435 10000    -2.16  55.72     4390.0      2.599     9.0 1980 1999     4.3 UK EU Tweed           ATL Norham     
+ 436 10000   -90.44  64.29    11000.0      2.579    11.8 1978 1992 -9999.0 CA NA Lorillard       ATL u/s Daly Ba
+ 437 10000  -105.15  21.97    25800.0      2.573     7.0 1976 1982    54.0 MX NA San Pedro       PAC San Pedro  
+ 438 10000   -95.05  62.47    12400.0      2.569    12.2 1979 1993 -9999.0 CA NA Ferguson        ATL d/s O'Neil 
+ 439 10000   126.30  39.75     3300.0      2.550    17.0 1965 1981   123.0 KP AS Taedong         PAC Dokchon    
+ 440 10000   -80.15  -4.30     6912.0      2.571     8.0 1977 1985   250.0 PE SA Chira (Catamayo PAC El Ciruelo 
+ 441 10000    49.67  30.50    12600.0      2.573    21.0 1955 1985 -9999.0 IR AS Zohreh          IND Deh Molla  
+ 442 10000   -84.38   9.93     1638.0      2.541    14.7 1965 1979   267.0 CR CA Grande de Tárco PAC Balsa      
+ 443 10000    34.14  66.79     6920.0      2.540    61.7 1930 1992     4.0 RU EU Umba            ARC Payalka    
+ 444 10000  -123.88  47.45      683.8      2.523    77.7 1911 1994    56.3 US NA Quinault River  PAC Quinault La
+ 445 10000   -45.67  -2.94     3762.0      2.525    27.3 1972 1999 -9999.0 BR SA Turiacu         ATL Alto Turi  
+ 446 10000    36.60  66.39     7940.0      2.504    57.6 1935 1992     8.0 RU EU Varzuga         ARC Varzuga    
+ 447 10000    -8.42  40.21     4929.0      2.489    40.9 1939 1980    20.0 PT EU Mondego         ATL Ponte de S.
+ 448 10000   -40.95 -20.95     5166.0      2.446    30.8 1969 1999    40.0 BR SA Itapemirim      ATL Usina Paine
+ 449 10000    -0.31  51.41     9948.0      2.521   101.0 1900 2000     4.7 UK EU Thames (natural ATL Kingston   
+ 450 10000   -46.59  -1.74     2631.0      2.432    22.3 1975 1999 -9999.0 BR SA Piria           ATL Tararua-Pon
+ 451 10000   -98.27  16.70     2514.0      2.402     6.8 1976 1982   110.0 MX NA Santa Catalina  PAC Las Juntas 
+ 452 10000   169.83 -44.27     1090.0      2.400    41.9 1926 1968 -9999.0 NZ PO Ohau Lake       SOC Lake Middle
+ 453 10000    39.70  67.98     6570.0      2.376    18.9 1935 1964 -9999.0 RU EU Yokanga         ARC Yokanga    
+ 454 10000   147.11 -41.46     8997.0      2.345    69.0 1902 1970 -9999.0 TX AU South Esk       SOC Launceston 
+ 455 10000    79.99  14.45    53290.0      2.345    14.0 1965 1979 -9999.0 IN AS Penner          IND Nellore    
+ 456 10000    48.95 -18.73     1825.0      2.343    20.9 1948 1973 -9999.0 MG AF Vohitra         IND Andekaleka 
+ 457 10000   136.18  36.10     1283.0      2.329     3.0 1958 1963 -9999.0 JP AS Hino            PAC Fukadani ? 
+ 458 10000    -2.68  51.80     4010.0      2.322    63.1 1936 1999     9.2 UK EU Wye             ATL Redbrook   
+ 459 10000  -133.61  58.20      585.0      2.302    17.6 1916 1975    42.7 AK NA Speel           PAC nr Juneau, 
+ 460 10000   138.55  35.20     3540.0      2.484    34.1 1962 2000    42.9 JP AS Fuji            PAC Kitamatsuno
+ 461 10000   132.50  34.45     1527.0      2.523    19.0 1978 2000     4.5 JP AS Ota             PAC Yaguchi    
+ 462 10000    10.28  63.07     3080.0      2.271     5.9 1978 1983 -9999.0 NO EU Gaula (Gauldale ATL Haga Bru   
+ 463 10000    -8.17  41.20     3180.0      2.243    32.0 1955 1987    40.0 PT EU Tamega          ATL Ponte de Ca
+ 464 10000   120.65  23.05      812.0      2.185    50.0 1951 2000 -9999.0 TW AS Kao-Ping        PAC Lao-Nung   
+ 465 10000   143.43  42.93     2715.0      2.297    11.0 1959 2000 -9999.0 JP AS Toshibetsu      PAC Toshibetsu 
+ 466 10000   126.18  38.98     2727.0      2.158    21.0 1964 1984    37.0 KP AS Nam-KP          PAC Samdung    
+ 467 10000   -46.80  -2.77     4668.0      2.172    14.8 1985 1999 -9999.0 BR SA Uraim           ATL Cafezal    
+ 468 10000   134.08  34.67     1717.0      2.168     4.0 1959 1963 -9999.0 JP AS Yoshii          PAC Iwato      
+ 469 10000    -3.14  57.55     2861.0      2.157     9.0 1980 1999    43.1 UK EU Spey            ATL Boat o Brig
+ 470 10000   -49.11 -28.42     2740.0      2.155    59.4 1939 1999    15.0 BR SA Tubarao         ATL Rio do Pous
+ 471 10000    24.83  57.17     8510.0      2.125    46.3 1939 1985    11.0 LV EU Gauya           ATL Sigulda    
+ 472 10000   -50.92   1.40     2500.0      2.105     2.8 1997 1999 -9999.0 BR SA Tartarugal Gran ATL Tartarugal 
+ 473 10000    38.70  -6.68    15190.0      2.088    18.3 1959 1978    15.0 TZ AF Ruvu            IND Dar-Es-Sala
+ 474 10000   168.95 -46.10     3465.0      2.052    33.0 1961 1993 -9999.0 NZ PO Mataura         SOC Gore Hbr   
+ 475 10000    21.97  56.98     8320.0      2.037    81.5 1900 1987     5.0 LV EU Venta           ATL Kuldiga    
+ 476 10000   -71.57  19.77     6718.0      2.034     4.0 1976 1979    11.0 DO CB Yaque del Norte ATL Palo Verde 
+ 477 10000    10.23   0.37     1700.0      2.031     7.4 1966 1974 -9999.0 GA AF M'Bei           ATL Andok-Foula
+ 478 10000   -39.30 -15.57    29138.0      2.439    41.3 1936 1979    50.0 BR SA Pardo           ATL Mascote    
+ 479 10000    23.63  69.42     5693.0      1.999     6.0 1978 1983 -9999.0 NO EU Altaelv         ARC Masi       
+ 480 10000   -48.85 -27.27     1964.0      2.009    16.2 1983 1999    14.0 BR SA Tijucas         ATL São João Ba
+ 481 10000   178.28 -17.81      790.0      1.997     2.2 1978 1980 -9999.0 FJ PO Wainimala       PAC Nairukuruku
+ 482 10000   -82.83   8.53      788.0      1.990    19.4 1965 1984    85.0 PA CA Chiriquí Viejo  PAC Paso Canoa 
+ 483 10000   175.81 -39.81     2787.0      1.987    25.0 1970 1994 -9999.0 NZ PO Rangitikei      PAC Mangaweka  
+ 484 10000    95.30  19.36     7782.0      1.966    11.8 1952 1969 -9999.0 MM AS Balu            IND Chaung Joik
+ 485 10000   -80.16  33.45    38073.0      1.974    52.4 1942 1995     7.0 US NA Santee          ATL Pineville, 
+ 486 10000    -2.32  52.38     4325.0      1.945    78.8 1921 1999    17.0 UK EU Severn          ATL Bewdley    
+ 487 10000    80.20   6.18      681.0      1.947    62.2 1927 1989 -9999.0 LK AS Gin Ganga       IND Agaliya    
+ 488 10000   -45.96  -2.05     2500.0      1.933    27.2 1972 1999 -9999.0 BR SA Maracacume      ATL Maracacume 
+ 489 10000    13.52  56.49     5480.0      1.907    66.0 1910 1975 -9999.0 SE EU Lagan           ATL Angaback   
+ 490 10000    46.38 -25.03    12435.0      1.914    22.0 1951 1973 -9999.0 MG AF Mandrare (Manda IND Amboassary 
+ 491 10000   178.10 -18.19      963.0      1.896     2.8 1978 1980 -9999.0 FJ PO Navua           PAC Nakavu     
+ 492 10000   123.24  41.46     7919.0      1.874    42.8 1935 1979 -9999.0 CN AS Hunhe           PAC Shenyan    
+ 493 10000     1.10  45.20     3125.0      1.891     3.0 1978 1980 -9999.0 FR EU Vezere          ATL Montignac  
+ 494 10000   101.45   3.40     1450.0      1.819    39.8 1960 2000    10.0 MY AS Selangor        IND Rantau Panj
+ 495 10000   -96.37  19.37     2234.0      1.820    31.0 1951 1981    80.0 MX NA Antigua         ATL Cardel     
+ 496 10000   -41.31 -21.22     3781.0      1.807    30.2 1969 1999    15.0 BR SA Itabapoana      ATL Santa Cruz 
+ 497 10000    -8.05  52.15     1440.0      1.814     6.0 1973 1979     7.0 IE EU Blackwater      ATL Ballyduff  
+ 498 10000    -5.43  34.28    17250.0      1.803    29.4 1959 1989    70.0 MA AF Sebou           ATL Azib Soltan
+ 499 10000   -97.04  20.06     1467.0      1.782     4.0 1976 1979   153.0 MX NA Nautla (Bobos)  ATL Martinez de
+ 500 10000    24.05  56.42     9390.0      1.782    64.8 1920 1985     4.0 LV EU Lielupe         ATL Svkh. Mezot
+ 501 10000    95.19  21.16     2577.0      1.774     9.3 1950 1969 -9999.0 MM AS Paulaung        IND Kindo weir 
+ 502 10000   127.57  35.18     4480.0      1.768     4.0 1976 1979     8.0 KR AS Somjin          PAC Sing Jeun  
+ 503 10000   -40.34  -3.69    11160.0      1.684    65.8 1911 1999    75.0 BR SA Acarau          ATL Sobral     
+ 504 10000   -53.99 -30.23     2968.0      1.714    28.0 1969 1999    78.8 BR SA Vacacai         ATL Passo do Ro
+ 505 10000   -57.00 -35.00    30000.0      1.710     7.8 1968 1975 -9999.0 AR SA Salado-AR       ATL H.C.Casanas
+ 506 10000   142.60  51.13     3420.0      1.727    49.7 1937 1987    52.0 RU AS Tym             PAC Ado Tymovo 
+ 507 10000   176.99 -38.01     1557.0      1.692    21.0 1973 1993 -9999.0 NZ PO Whakatane       PAC Whakatane  
+ 508 10000   175.93 -39.00      780.0      1.691    12.0 1957 1968 -9999.0 NZ PO Tongariro       PAC Turangi    
+ 509 10000   -81.25   8.20      697.0      1.667    12.0 1973 1984    40.0 PA CA San Pablo       PAC Interameric
+ 510 10000   -47.58 -24.31     1713.0      1.676    35.3 1962 1998    15.0 BR SA São Lourenço    ATL Sitio Jabor
+ 511 10000   126.45  40.67     2192.0      1.634    21.0 1964 1984   372.0 KP AS Zangza          PAC Jonchon    
+ 512 10000  -106.95  24.49     8919.0      1.631     7.0 1976 1982    18.0 MX NA San Lorenzo     PAC Santa Cruz 
+ 513 10000    21.38  39.18     1349.0      1.636    30.0 1965 1995 -9999.0 GR EU Acheloos        MED Avlaki     
+ 514 10000    -9.15  54.10     2131.0      1.617     6.0 1973 1979     3.0 IE EU Moy             ATL Ballina    
+ 515 10000  -123.47  41.37     1945.1      1.609    67.0 1911 1992   147.2 US NA Salmon River At PAC mes Bar, Ca
+ 516 10000   -76.15 -13.00     4900.0      1.621    27.0 1934 1960   250.0 PE SA Cañete          PAC Toma Imperi
+ 517 10000   148.36 -37.66    13421.0      1.566    66.3 1922 2002    14.3 VX AU Snowy           SOC Jarrahmond 
+ 518 10000    21.80  40.08     5005.0      1.581    26.0 1962 1988 -9999.0 GR EU Aliakmon        MED Il Arion   
+ 519 10000   133.00  33.23      942.0      1.542    32.0 1965 1996 -9999.0 JP AS Watari (Shimant PAC Taisho     
+ 520 10000   -38.44  -5.12    17900.0      1.536    34.9 1961 1996    50.0 BR SA Banabuiu        ATL Morada Nova
+ 521 10000   123.77  41.32     4324.0      1.519    33.0 1955 1987 -9999.0 CN AS Taizi           PAC Benxi      
+ 522 10000    44.78 -20.40     4650.0      1.537    14.8 1951 1984 -9999.0 MG AF Morondava       IND Dabara     
+ 523 10000   154.50  69.17    29000.0      1.510    17.3 1968 1993 -9999.0 RU AS Alazeya         ARC Andrushkino
+ 524 10000   -51.80   0.18     4268.0      1.517     9.1 1982 1991 -9999.0 BR SA Maraca Pucu     ATL Pancada    
+ 525 10000   -50.08 -29.77     1718.0      1.513    18.4 1981 1999     2.0 BR SA Joao Pedro      ATL Barra do Jo
+ 526 10000    24.77  58.47     5165.0      1.506    64.3 1921 1985     5.0 EE EU Pyarnu (Pärnu)  ATL Oorekula (O
+ 527 10000  -133.11  57.17      391.0      1.491    16.7 1977 1994     7.6 AK NA Farragut        PAC nr Petersbu
+ 528 10000   -68.50 -43.85    16400.0      1.490    57.8 1943 2000   275.0 AR SA Chubut          ATL Los Altares
+ 529 10000   145.75 -42.24      757.0      1.508    41.8 1953 1995 -9999.0 TX AU Franklin        SOC Mt Fincham 
+ 530 10000   -77.52  38.32     4118.1      1.487    85.5 1910 1995    16.8 US NA Rappahannock Ri ATL Near Freder
+ 531 10000   121.37  41.18    17687.0      1.473    19.5 1960 1979 -9999.0 CN AS Dalinghe        PAC Dalinghe   
+ 532 10000  -148.76  69.09     5719.0      1.471     8.1 1970 1978   304.8 AK NA Sagavanirktok   ARC nr Sagwon, 
+ 533 10000   135.88  34.75     1455.0      1.468     5.0 1991 1995    34.9 JP AS Kizu            PAC Kamo       
+ 534 10000   110.23  -7.74     2008.0      1.451    13.0 1973 1985    41.0 ID AS Progo (Kali Pro IND Bantar     
+ 535 10000  -106.60  23.95     6166.0      1.436     6.0 1976 1981   100.0 MX NA Piaxtla         PAC Ixpalino   
+ 536 10000   -97.47  20.54     1600.0      1.415     4.0 1976 1979    50.0 MX NA Cazones         ATL Poza Rica  
+ 537 10000    80.87   6.34     1589.0      1.418    25.0 1943 1967 -9999.0 LK AS Walawe          IND Embilipitiy
+ 538 10000   128.30  35.31     2984.0      1.408    34.0 1960 1993 -9999.0 KR AS Nam-KR          PAC Jungam     
+ 539 10000    21.85  63.13     4805.0      1.370    91.0 1911 2001 -9999.0 FI EU Kyrön           ATL Skatila (La
+ 540 10000    26.72  56.90     6510.0      1.410    62.3 1923 1985    88.0 LV EU Aiviekste       ATL Lubana     
+ 541 10000   145.93 -43.15      686.0      1.402    38.3 1964 2002 -9999.0 TX AU Davey           SOC d/s Crossin
+ 542 10000    -1.94  54.95     2176.0      1.436    46.1 1956 2002    14.0 UK EU Tyne            ATL Bywell     
+ 543 10000    25.40  65.20     3845.0      1.400    74.5 1911 2001 -9999.0 FI EU Kiiminki        ATL Haukipudas 
+ 544 10000   -97.67  20.92     4341.0      1.506     2.8 1976 1979    20.0 MX NA Tuxpan          ATL Alamo      
+ 545 10000   -41.86 -21.64     3118.0      1.383    68.0 1931 1999    50.0 BR SA Dois Rios       ATL Dois Rios  
+ 546 10000    33.08  68.85     3780.0      1.376    65.0 1928 1992    23.0 RU EU Kola            ARC Oktyabrsky 
+ 547 10000     6.90  43.75     1827.0      1.370     3.0 1978 1980 -9999.0 FR EU Var             MED Mescla     
+ 548 10000   126.72  35.03     2000.0      1.352     4.0 1976 1979     2.0 KR AS Yeong San       PAC Na Ju      
+ 549 10000   -85.95  13.50     5510.0      1.059    25.6 1958 1995 -9999.0 NI CA Coco            ATL Guanas     
+ 550 10000   174.15  68.53     6810.0      1.331    22.5 1971 1995 -9999.0 RU AS Palyavaam       ARC Palyavaam  
+ 551 10000   130.57  32.92      907.0      1.327    11.8 1959 2000 -9999.0 JP AS Kikuchi         PAC Tamana     
+ 552 10000   -91.04  18.18     9628.0      1.312     4.0 1976 1979    42.0 MX NA Candelaria      ATL Candelaria 
+ 553 10000   -39.12 -13.60     2830.0      1.311    41.0 1957 1999     6.0 BR SA Almas [das] (Je ATL Nilo Pecanh
+ 554 10000  -108.02  25.90     8179.0      1.294    35.9 1942 1983   120.0 MX NA Sinaloa         PAC Jaina      
+ 555 10000    99.61   7.55     1801.0      1.284    16.8 1967 1984 -9999.0 TH AS Trang           PAC Trang      
+ 556 10000   130.75  32.66      519.0      1.281     5.0 1962 1996 -9999.0 JP AS Midori          PAC Chukobashi 
+ 557 10000    -0.65  39.12    17876.0      1.283    18.1 1965 1984    45.0 ES EU Jucar           MED Masia de Mo
+ 558 10000   -46.87  -1.25     1315.0      1.274     7.2 1964 1971 -9999.0 BR SA Caete           ATL Nova Mocaju
+ 559 10000   147.23 -36.41     4716.0      1.260    64.9 1934 1999   222.1 VX AU Mitta Mitta     SOC Tallandoon 
+ 560 10000    24.48  41.28     4393.0      1.254    31.0 1965 1996 -9999.0 GR EU Nestos (Mesta)  MED Temenos    
+ 561 10000    24.87  64.76     4395.0      1.230    53.0 1936 1990 -9999.0 FI EU Siika           ATL Länkelä    
+ 562 10000  -148.96  70.28     8107.0      1.268    29.0 1971 2001     0.0 AK NA Kuparuk         ARC nr Deadhors
+ 563 10000   -41.46 -19.59     3230.0      1.226    22.3 1976 1998 -9999.0 BR SA Jose Pedro      ATL Assarai-mon
+ 564 10000    -4.20  51.86     1090.0      1.225    41.2 1958 1999     7.8 UK EU Tywi            ATL Nantgaredig
+ 565 10000   130.80  32.22      521.0      1.216     7.9 1959 1996 -9999.0 JP AS Kawabe          PAC Yanase     
+ 566 10000   -71.68  43.75     1611.0      1.218    92.6 1903 1996   139.3 US NA Pemigewasset Ri ATL At Plymouth
+ 567 10000   -39.46 -14.33     6570.0      1.216    49.1 1947 1999    76.0 BR SA Gongogi         ATL Pedrinhas  
+ 568 10000  -103.63  18.80     6835.0      1.203     7.0 1976 1982    25.0 MX NA Coahuayana      PAC Callejones 
+ 569 10000   176.42 -39.53     1030.0      1.204    24.9 1960 1988 -9999.0 NZ PO Ngaruroro       PAC Whanawhana 
+ 570 10000  -139.57  69.32     5710.0      1.197    23.5 1972 2001 -9999.0 CA NA Firth           ARC nr mouth   
+ 571 10000   100.67   5.20      689.0      1.190    10.3 1961 1972    10.0 MY AS Krian           IND Dusun Limai
+ 572 10000   -88.41  13.28     2238.0      1.176    12.0 1969 1981     7.0 SV CA Grande de San M PAC Las Conchas
+ 573 10000   103.75   1.78     1130.0      1.169    36.7 1963 1999    10.0 MY AS Johor           IND Rantau Panj
+ 574 10000   -52.90 -31.87     2371.0      1.158     7.3 1965 1976    37.0 BR SA Basilio [Arr]   ATL Contrato   
+ 575 10000   120.80  24.30      599.0      1.158    21.0 1973 1993 -9999.0 TW AS Ta-An           PAC Cho-Lan    
+ 576 10000   -51.74   0.41     1220.0      1.157     6.7 1989 1996 -9999.0 BR SA Vila Nova       ATL Acampamento
+ 577 10000  -105.13  20.92     9329.0      1.138     2.0 1976 1977    70.0 MX NA Ameca           PAC Las Gaviota
+ 578 10000   132.18  69.53    10800.0      1.136    15.0 1979 1993 -9999.0 RU AS Omoloy          ARC Namy       
+ 579 10000   126.22  39.24     1878.0      1.119    19.0 1966 1984    50.0 KP AS Biryu           PAC Songchon   
+ 580 10000   121.07  22.90      476.0      1.122    38.0 1956 1993 -9999.0 TW AS Pei-Nan Chi     PAC Yen-Ping   
+ 581 10000   126.99 -14.66    14000.0      1.144    23.8 1974 1999 -9999.0 WX AU Drysdale        IND Solea Falls
+ 582 10000    -2.60  57.05     1370.0      1.119    13.0 1971 1999    70.5 UK EU Dee (Royal Dee) ATL Woodend    
+ 583 10000   -20.52  64.25      225.0      1.192    37.8 1961 1999 -9999.0 IS EU Bruara          ATL Efstidalur 
+ 584 10000  -111.91  67.63     5810.0      1.089    29.2 1968 2001 -9999.0 CA NA Tree            ARC nr mouth   
+ 585 10000  -105.35  22.50     5092.0      1.095    49.0 1951 2000    31.0 MX NA Acaponeta       PAC Acaponeta  
+ 586 10000    -2.72  54.08      983.0      1.099    37.0 1959 1999    10.7 UK EU Lune            ATL Caton      
+ 587 10000   -37.80 -11.73    35150.0      1.095    25.8 1964 1999    17.0 BR SA Itapicuru       ATL Usina Altam
+ 588 10000    19.97  41.06     1960.0      1.099    41.0 1950 1990    61.0 AL EU Shkumbini [Medh MED Papër      
+ 589 10000   -71.50 -36.42      326.0      1.083    41.0 1948 1989 -9999.0 CL SA Perquilauquen   PAC San Manuel 
+ 590 10000     3.20  43.40     1330.0      1.092     3.0 1978 1980 -9999.0 FR EU Orb             MED Beziers-Tab
+ 591 10000    14.22  42.46     3125.0      1.088     6.2 1992 1998     4.5 IT EU Pescara         MED Santa Teres
+ 592 10000   -49.60 -28.96      898.0      1.087    55.8 1943 1999    10.0 BR SA Itoupava        ATL Taquarucu  
+ 593 10000   101.68   2.85     1240.0      1.084    36.7 1960 2000     7.0 MY AS Langat          IND Dingkil    
+ 594 10000    43.52  64.97     3040.0      1.064    64.4 1926 1991    11.0 RU EU Kuloy           ARC Kuloy      
+ 595 10000   -41.54 -19.07     3250.0      1.067    20.9 1975 1998 -9999.0 BR SA Cuite           ATL Barra do Cu
+ 596 10000    12.32  57.24     2160.0      1.088    95.0 1909 2003 -9999.0 SE EU Viskan          ATL Asbro      
+ 597 10000   175.24 -38.86     1075.0      1.048    32.0 1963 1994 -9999.0 NZ PO Ongarue         PAC Taringamutu
+ 598 10000   -92.80  30.63     1950.3      1.043    58.4 1922 1994    12.0 US NA Calcasieu River ATL Oberlin, La
+ 599 10000  -123.72  45.47      417.0      1.042    65.1 1914 1995    21.9 US NA Wilson River Ne PAC Tillamook, 
+ 600 10000   145.66 -42.16      449.0      1.039    64.0 1925 1988 -9999.0 TX AU King            SOC Crotty     
+ 601 10000   -70.57 -34.82      956.0      1.044    12.7 1944 1957 -9999.0 CL SA Tinguiririca    PAC bajo junta 
+ 602 10000   -47.88 -24.59     1325.0      1.042    37.0 1963 1999    20.0 BR SA Jacupiranga     ATL Ingatuba 4F
+ 603 10000   121.50  24.18      435.0      1.035    33.9 1960 1993 -9999.0 TW AS Li-Wu           PAC Lu-Shui    
+ 604 10000    72.63  23.07    12950.0      1.028    11.0 1968 1979    50.0 IN AS Sabarmati       IND Ahmedabad  
+ 605 10000   -53.55  -3.68     2628.0      1.031    15.9 1979 1998 -9999.0 BR SA Para do Uruara  ATL Uruara     
+ 606 10000     6.33  52.25     3600.0      1.020     5.0 1978 1982 -9999.0 NL EU Vecht           ATL Vechterweer
+ 607 10000    77.93   8.62     4505.0      1.012     7.0 1971 1979    13.0 IN AS Tambraparni     IND Srivaikunta
+ 608 10000   -74.68  20.38      753.0      1.005    11.0 1969 1979   562.0 CU CB Toa             ATL Aguacate   
+ 609 10000   -38.07 -12.51     4860.0      0.999    36.6 1961 1998    22.0 BR SA Pojuca          ATL Tiririca   
+ 610 10000   151.55 -32.73    17476.0      0.752    31.2 1968 2000     0.2 NX AU Hunter          PAC Belmore Bri
+ 611 10000    19.87  40.76     2070.0      1.005    40.0 1950 1989    25.0 AL EU Osumi           MED Ura Vajgure
+ 612 10000   -35.58  -8.68     5100.0      0.996    25.8 1973 1998   109.0 BR SA Una             ATL Palmares   
+ 613 10000   101.16   4.11      461.0      0.999    57.7 1930 2000    18.0 MY AS Batang Padang   IND Kampar Telo
+ 614 10000    18.59  63.56     3030.0      0.994    52.7 1923 1975 -9999.0 SE EU Gidealven       ATL Björna     
+ 615 10000    -6.57  53.70     2695.0      0.992     6.9 1973 1979    14.0 IE EU Boyne           ATL Slane      
+ 616 10000    48.25  66.50     2780.0      0.979    27.0 1965 1993 -9999.0 RU EU Pesha           ARC Volokovaya 
+ 617 10000   176.76 -37.94      906.0      0.964    56.6 1948 2004 -9999.0 NZ PO Tarawera        PAC Awakaponga 
+ 618 10000     1.83  50.10     5560.0      0.983    15.0 1965 1980 -9999.0 FR EU Somme           ATL Abbeville  
+ 619 10000    -5.90  32.68     3330.0      0.981    35.2 1953 1989   591.0 MA AF Oum er Rbia     ATL Dechra el O
+ 620 10000   -68.27  57.67     2140.0      0.972    19.7 1972 1993 -9999.0 CA NA "False"         ATL            
+ 621 10000    -2.97  52.97     1019.0      0.975    61.9 1937 1999    25.4 UK EU Dee (Afon Dyfrd ATL Manley Hall
+ 622 10000   167.93 -44.68      155.0      0.971     7.3 1965 1975 -9999.0 NZ PO Cleddau         PAC Milford    
+ 623 10000   -41.94 -21.77     1816.0      0.967    32.1 1967 1999    80.0 BR SA Grande          ATL Pimentel   
+ 624 10000   146.26 -42.26      575.0      0.962    27.0 1922 1948 -9999.0 TX AU Derwent-AU      SOC Butlers Gor
+ 625 10000    36.32  35.80     5130.0      0.959     4.0 1976 1979   128.0 SY AM Assi (Asi, Oron MED Jisr ash Sh
+ 626 10000   -81.87  27.22     3540.5      0.954    62.5 1931 1994     1.8 US NA Peace River At  ATL adia, Fla. 
+ 627 10000  -130.07  56.03      243.0      0.950    10.2 1963 1973    89.9 AK NA Salmon          PAC nr Hyder, A
+ 628 10000  -109.05  25.95    34247.0      0.971     6.0 1976 1981    20.0 MX NA Fuerte          PAC San Miquel 
+ 629 10000    24.48  57.85     3265.0      0.943    59.0 1926 1985    17.0 LV EU Salatsa (Salaca ATL Lagaste    
+ 630 10000   -35.86  -9.47     3860.0      0.938    24.8 1974 1998    42.0 BR SA Mundau          ATL Fazenda Boa
+ 631 10000    20.28  40.78     1880.0      0.934    10.5 1976 2000   295.0 AL EU Devolli         MED Kokel      
+ 632 10000   100.45   6.22     1274.0      0.918    13.8 1946 1960     6.0 MY AS Padang Terap    IND Lengkuas   
+ 633 10000   -80.53   7.87     1000.0      0.911    11.8 1973 1984    25.0 PA CA La Villa        PAC Atalayita  
+ 634 10000   147.38 -37.77     3903.0      0.892    64.5 1937 2002    37.9 VX AU Mitchell        SOC Glenaladale
+ 635 10000   -77.20 -11.13     5000.0      0.866    56.3 1911 1968   672.0 PE SA Huaura          PAC Sayan      
+ 636 10000   -35.31  -8.64     1360.0      0.901     9.6 1989 1998   100.0 BR SA Sirinhaem       ATL Engenho Mat
+ 637 10000   -79.27  -6.61     3000.0      0.906    47.0 1914 1960   306.0 PE SA Chancay-Lambaye PAC Carhuaquero
+ 638 10000    -4.56  52.04      894.0      0.895    40.3 1959 1999     5.2 UK EU Teifi           ATL Glan Teifi 
+ 639 10000    -8.30  40.75      928.0      0.903    18.7 1962 1980    50.0 PT EU Vouga           ATL Pedre Ribei
+ 640 10000    -2.95  51.75      912.0      0.885    42.7 1957 1999    22.6 UK EU Usk             ATL Chain Bridg
+ 641 10000    77.80  10.10     2253.0      0.885     6.8 1972 1979   279.0 IN AS Vaigai          IND Peranai    
+ 642 10000   116.08   5.78     1000.0      0.870    12.7 1969 1985 -9999.0 MY AS Papar           PAC Kaiduan, Sa
+ 643 10000   -38.87  -6.41    12000.0      0.875    36.3 1957 1996   160.0 BR SA Salgado         ATL Ico        
+ 644 10000   -35.05  -7.13    19244.0      0.859    25.8 1970 1997    18.0 BR SA Paraiba         ATL Ponte da Ba
+ 645 10000   -90.09  13.84     1991.0      0.847    15.8 1965 1981    30.0 SV CA Paz             PAC La Hachadur
+ 646 10000   -40.82  -3.12     3720.0      1.214    37.3 1911 1993     9.0 BR SA Coreau          ATL Granja Ii  
+ 647 10000   136.87  35.20      705.0      0.843    29.0 1969 1997 -9999.0 JP AS Shonai          PAC Nishi-biwaj
+ 648 10000   172.59 -41.79      368.0      0.840    53.4 1934 1990 -9999.0 NZ PO Gowan           PAC Lake Rotoro
+ 649 10000   127.42  36.38      612.0      0.839    33.0 1962 1994 -9999.0 KR AS Gap             PAC Hoeduk     
+ 650 10000   -79.28  -7.28     2500.0      0.841    62.0 1927 1988   200.0 PE SA Jequetepeque    PAC Ventanillas
+ 651 10000  -103.95  18.95     9744.0      0.831     6.0 1976 1981    38.0 MX NA Armería         PAC Coliman    
+ 652 10000   -71.08  43.98      997.1      0.832    73.0 1903 1995   127.5 US NA  Saco River Nea ATL nway, NH   
+ 653 10000   -40.49 -20.42     1690.0      0.827    27.6 1968 1999    40.0 BR SA Jucu            ATL Fazenda Juc
+ 654 10000   -39.27 -14.80     3964.0      0.823     8.3 1935 1943    55.0 BR SA Cachoeira       ATL Itabuna    
+ 655 10000   -48.92 -27.10     1240.0      0.809    60.4 1934 1999    35.0 BR SA Itajai-Mirim    ATL Brusque (Pc
+ 656 10000   147.60 -20.58     7200.0      0.816    37.7 1960 1998    83.0 QX AU Bowen           PAC Myuna      
+ 657 10000   145.98 -17.62      390.0      0.807    79.8 1916 1996 -9999.0 QX AU South Johnstone PAC u/s Central
+ 658 10000     0.27  36.03    43750.0      0.808     2.7 1976 1978     2.0 DZ AF Chelif          MED Sidi Belata
+ 659 10000   145.62 -16.80     1940.0      0.790    79.7 1914 1994 -9999.0 QX AU Barron          PAC Myola      
+ 660 10000    16.00  67.60      390.0      0.784    58.1 1916 1974 -9999.0 NO EU Kobbelv         ATL Kobbvatn   
+ 661 10000    20.02  41.62      646.0      0.789    39.0 1950 1988   152.0 AL EU Mati            MED Shoshaj    
+ 662 10000    24.17  56.40     5320.0      0.788    65.2 1920 1985    10.0 LV EU Musa-LV         ATL Bauska     
+ 663 10000    24.00  58.73     2650.0      0.780    61.4 1924 1985     3.0 EE EU Kazari (Kasari) ATL Kazari (Kas
+ 664 10000   -71.07  18.68     1709.0      0.759     7.8 1976 1984   300.0 DO CB Yaque del Sur   ATL El Puente  
+ 665 10000   -76.46  18.13      215.0      0.759    10.8 1969 1979    31.0 JM CB Rio Grande      ATL Fellowship 
+ 666 10000   -35.05  -8.02     7004.0      0.753    20.6 1956 1989    55.0 BR SA Capibaribe      ATL Sao Lourenc
+ 667 10000   -47.65 -24.17      634.0      0.751    27.2 1972 1999 -9999.0 BR SA Acungui         ATL Capela do P
+ 668 10000   -48.83 -26.45      337.0      0.743    19.8 1977 1999     8.0 BR SA Pirai           ATL Ponte Sc-30
+ 669 10000   169.73 -44.47      557.0      0.738    31.0 1964 1994 -9999.0 NZ PO Ahuriri         SOC South Diade
+ 670 10000   120.53  22.45      310.0      0.732    32.0 1962 1993 -9999.0 TW AS Lin-Pien        PAC Hsin-Pei   
+ 671 10000   117.40  39.77     5120.0      0.725    37.0 1951 1987 -9999.0 CN AS Jiyun           PAC Jiuwangzhua
+ 672 10000   -51.46   3.04      900.0      0.730     2.5 1997 1999 -9999.0 BR SA Varador         ATL Cooperativa
+ 673 10000   -68.12   9.50     2730.0      0.719    17.0 1952 1968 -9999.0 VE SA Pao             ATL Paso La Bal
+ 674 10000   135.08 -16.45    10400.0      0.716  -999.0 -999 -999    12.5 AU AU Macarthur       PAC Mim Pump   
+ 675 10000    -4.22  50.53      917.0      0.712    43.5 1956 1999     8.2 UK EU Tamar           ATL Gunnislake 
+ 676 10000   175.09 -41.10      427.0      0.707    24.0 1971 1994 -9999.0 NZ PO Hutt            PAC Birchville 
+ 677 10000     3.37  50.62     5091.0      0.703    15.0 1967 1981 -9999.0 BE EU Scheldte (Escau ATL Kain       
+ 678 10000    40.42  65.67     1840.0      0.696    32.3 1956 1988 -9999.0 RU EU Zolotitsa       ARC Verkhnaya Z
+ 679 10000    36.75  68.90      980.0      0.695    16.0 1932 1958 -9999.0 RU EU Rinda           ARC Rinda      
+ 680 10000   -80.87  33.48     1769.0      0.694    54.8 1938 1995    45.4 US NA North Fork Edis ATL River At Or
+ 681 10000   176.34 -38.03      632.0      0.687    84.8 1906 1990 -9999.0 NZ PO Kaituna         PAC Lake Rotoit
+ 682 10000    27.83  43.03     4857.0      0.687    51.2 1935 1986    15.0 BG EU Kamchiya        MED Gzozdevo   
+ 683 10000   -77.58  35.42     1888.1      0.682    62.8 1928 1995     4.9 US NA Contentnea Cree ATL t Hookerton
+ 684 10000    17.88  68.88      580.0      0.678    61.0 1914 1974 -9999.0 NO EU Salangselv      ATL Vassas     
+ 685 10000   -41.01 -19.52     2135.0      0.673    51.0 1941 1998    70.0 BR SA Guandu          ATL Baixo Guand
+ 686 10000   -71.68  19.10     1029.0      0.666     8.9 1976 1984   253.0 DO CB Artibonito      ATL Pedro Santa
+ 687 10000     2.35  43.23     1730.0      0.668    30.0 1969 1998    96.0 FR EU Aude            MED Carcassonne
+ 688 10000  -107.38  24.93    11409.0      0.658     4.0 1976 1979    88.0 MX NA Culiacán (Humay PAC Palos Blanc
+ 689 10000   -41.17 -20.70     1458.0      0.658    12.4 1986 1999   200.0 BR SA Castelo         ATL Usina Sao M
+ 690 10000  -131.64  56.21      175.0      0.654    37.0 1951 1988     6.1 AK NA Harding         PAC nr Wrangell
+ 691 10000   173.18 -41.71      550.0      0.653    21.0 1959 1979 -9999.0 NZ PO Branch          PAC Recorder   
+ 692 10000   -95.33  16.43     9364.0      0.655     3.0 1976 1978    60.0 MX NA Tehuantepec     PAC Las Cueuas 
+ 693 10000   131.52  34.05      536.0      0.644    10.8 1955 1996     5.3 JP AS Saba            PAC Shinbashi  
+ 694 10000    -3.32  34.24    24422.0      0.647    43.5 1957 2000   325.0 MA AF Moulouya        MED Dar el Caid
+ 695 10000    79.20  11.95    12888.0      0.651     4.0 1976 1979    83.0 IN AS Ponnaiyar       IND Tirukkoyilu
+ 696 10000   -97.86  28.04    43149.0      0.640    60.1 1939 1999     8.1 US NA Nueces          ATL Mathis, TX 
+ 697 10000   -43.87  -3.55     2450.0      0.642    26.8 1972 1999    20.0 BR SA Iguara          ATL Iguara     
+ 698 10000    20.98  39.58      350.0      0.642    16.0 1964 1980 -9999.0 GR EU Aracthos        MED Tsimovo    
+ 699 10000   148.13 -20.83     2280.0      0.642    23.7 1969 1993   150.0 QX AU Broken          PAC Mt Sugarloa
+ 700 10000   -70.32 -32.92      875.0      0.635    18.0 1942 1960 -9999.0 CL SA Aconcagua       PAC Blanco     
+ 701 10000    35.43  64.25     1990.0      0.631    56.6 1926 1988     4.0 RU EU Suma            ARC Sumskiy Pos
+ 702 10000   115.62 -34.07    20400.0      0.650    44.6 1955 1999    42.5 WX AU Blackwood       IND Darradup   
+ 703 10000    -3.98  51.00      826.0      0.627     9.0 1980 1999    14.1 UK EU Taw             ATL Umberleigh 
+ 704 10000   121.30  23.42      249.0      0.626    35.0 1959 1993 -9999.0 TW AS Hsiu-Ku-Luan    PAC Li-Shan    
+ 705 10000    -3.33  51.60      455.0      0.616    28.5 1970 1999 -9999.0 UK EU Taff            ATL Pontypridd 
+ 706 10000   -48.71 -27.69      522.0      0.616    11.3 1988 1999 -9999.0 BR SA Cubatao         ATL Eta Casan-m
+ 707 10000   132.42  44.27     4030.0      0.608    41.8 1942 1985    70.0 RU AS Ilistaya        PAC Khalkidon  
+ 708 10000   173.69 -41.62      764.0      0.605    23.0 1961 1983 -9999.0 NZ PO Waihopai        PAC Craiglochar
+ 709 10000   -39.08 -13.37     1280.0      0.604    29.4 1969 1999    50.0 BR SA Una-2           ATL Valenca    
+ 710 10000   -72.90 -38.15     1054.0      0.601    41.0 1948 1989 -9999.0 CL SA Lumaco          PAC Lumaco     
+ 711 10000   -68.97   9.68     4325.0      0.596    21.3 1943 1964 -9999.0 VE SA Cojedes         ATL Pte San Raf
+ 712 10000   141.28 -37.93    11914.0      0.581    53.6 1948 2001     7.7 VX AU Glenelg         SOC Dartmoor   
+ 713 10000   150.00 -35.17     2770.0      0.592    66.0 1910 1975 -9999.0 NX AU Shoalhaven      PAC Welcome Ree
+ 714 10000   -80.48   8.42      471.0      0.590    19.7 1965 1984    15.0 PA CA Grande          PAC Rio Grande 
+ 715 10000     9.52  36.58    20895.0      0.588    45.0 1950 1994    67.0 TN AF Medjerda        MED Sloughia   
+ 716 10000    -3.79  53.11      344.0      0.583    33.2 1964 1999 -9999.0 UK EU Conwy           ATL Cwm Llanerc
+ 717 10000     1.95  41.47     4561.0      0.493    19.0 1968 1989 -9999.0 ES EU Llobregat       MED Martorell  
+ 718 10000   -35.55  -9.13      674.0      0.573    19.3 1978 1998    16.0 BR SA Camarajibe      ATL Matriz de C
+ 719 10000   -41.51 -20.53     1045.0      0.573    36.8 1961 1999   374.0 BR SA Braco Norte Esq ATL Itaici     
+ 720 10000     3.87  36.80     2501.0      0.573     4.0 1976 1979    20.0 DZ AF Sebaou          MED Baghlia    
+ 721 10000    14.22  65.50      756.0      0.565     6.0 1978 1983 -9999.0 NO EU Vefsna          ATL Unkervatn  
+ 722 10000   -45.79  -2.50      839.0      0.562    15.8 1981 1999 -9999.0 BR SA Parua           ATL Br-316 Rio 
+ 723 10000   121.28  24.65      335.0      0.554    37.0 1957 1993 -9999.0 TW AS Tan-Shui        PAC Yun-Feng   
+ 724 10000   103.17   1.93      186.0      0.553    10.3 1969 1985     6.0 MY AS Sembrong        IND Brizay Brid
+ 725 10000    -1.36  53.92      759.0      0.550    34.2 1965 1999    13.7 UK EU Wharfe          ATL Flint Mill 
+ 726 10000   -52.08 -30.98      944.0      0.539     5.9 1943 1948    40.0 BR SA Sapato [Arr do] ATL Passo do Sa
+ 727 10000   101.71   3.15      490.0      0.699    18.3 1969 2000    31.0 MY AS Klang           IND Kuala Lumpu
+ 728 10000     7.23  58.40      266.0      0.531     6.0 1978 1983 -9999.0 NO EU Lygna           ATL Tingvatn   
+ 729 10000    40.15  64.30     1820.0      0.515    17.8 1970 1988 -9999.0 RU EU Laya            ARC Stepanovo  
+ 730 10000    38.26  68.33     1210.0      0.515    17.3 1947 1967 -9999.0 RU EU Varzina         ARC Varzina    
+ 731 10000    -3.51  50.80      601.0      0.506    43.6 1956 1999    25.9 UK EU Exe             ATL Thorverton 
+ 732 10000    -0.88  54.02     1586.0      0.506    26.3 1973 1999     9.5 UK EU Derwent-EU      ATL Buttercramb
+ 733 10000   -47.92 -24.33      270.0      0.504    14.1 1981 1997 -9999.0 BR SA Quilombo (Poco  ATL Quilombo 4F
+ 734 10000   -39.32 -13.17     5970.0      0.502    44.2 1955 1999   132.0 BR SA Jequirica       ATL Jiquirica  
+ 735 10000  -135.28  59.47      376.0      0.499    23.0 1963 1986     6.1 AK NA Skagway         PAC Skagway, AK
+ 736 10000    -0.22  52.29     2570.0      0.501    26.7 1972 1999 -9999.0 UK EU Bedford Ouse    ATL Offord     
+ 737 10000     9.67  56.23     1289.0      0.512    86.0 1917 2002 -9999.0 DK EU Gudena          ATL Tvilumbro  
+ 738 10000   -74.97  41.93      624.2      0.496    80.5 1914 1994   351.0 US NA Beaver Kill At  ATL ks Falls, N
+ 739 10000   121.48  24.57      274.0      0.495    51.0 1950 2000 -9999.0 TW AS Lan Yang        PAC Ku-Lu      
+ 740 10000     2.32  41.98     1390.0      0.495     5.0 1978 1984 -9999.0 ES EU Ter             MED Roda del Te
+ 741 10000    36.22  63.92     1350.0      0.484    33.4 1954 1988 -9999.0 RU EU Nyukhcha        ARC Nyukhcha   
+ 742 10000    15.62  57.42     1898.0      0.480    59.8 1901 1960 -9999.0 SE EU Ema             ATL Jarnforsen 
+ 743 10000   -35.07  -8.28      405.0      0.477    11.9 1986 1998 -9999.0 BR SA Pirapama        ATL Pirapama   
+ 744 10000   -77.97  38.35     1222.5      0.478    65.0 1930 1995    73.6 US NA Rapidan River N ATL Culpeper, V
+ 745 10000   -68.60   9.68     1563.0      0.471    27.0 1942 1968 -9999.0 VE SA Tirgua          ATL Paso Vibola
+ 746 10000   -46.78 -24.07      264.0      0.473     9.4 1981 1990 -9999.0 BR SA Branco          ATL Fazenda Agu
+ 747 10000   147.02 -36.26     1145.0      0.468    61.6 1937 1999   173.6 VX AU Kiewa           SOC Kiewa (main
+ 748 10000   -37.57 -11.54     4320.0      0.466    30.6 1966 1999     1.0 BR SA Real            ATL Itanhi     
+ 749 10000   172.91 -42.46      440.0      0.466    36.3 1958 1994 -9999.0 NZ PO Clarence        SOC Jollies    
+ 750 10000    25.10  69.83      918.0      0.465    52.7 1921 1974 -9999.0 NO EU Lakselv         ARC Skoganvarre
+ 751 10000    41.08  64.65     1400.0      0.460    39.4 1938 1977 -9999.0 RU EU Lodma           ARC Korovkinska
+ 752 10000   -40.53 -20.10      997.0      0.457    50.2 1949 1999    45.0 BR SA Santa Maria da  ATL Santa Leopo
+ 753 10000  -123.32  47.50      148.1      0.448    68.8 1924 1994   232.3 US NA Nf Skokomish R  PAC Strcse Rpds
+ 754 10000   -40.52 -19.06     1022.0      0.448    29.6 1967 1998 -9999.0 BR SA Sao Jose        ATL Barra de Sa
+ 755 10000     8.72  55.95     1040.0      0.470    81.5 1920 2002     7.0 DK EU Skjern          ATL Alergard   
+ 756 10000   -35.45  -8.84      725.0      0.444     9.9 1989 1998   115.0 BR SA Jacuipe-2       ATL Jacuipe    
+ 757 10000   121.27  24.30      258.0      0.446    35.0 1959 1993 -9999.0 TW AS Ta-Chia         PAC Huan-Shan J
+ 758 10000   -41.44 -19.82     1187.0      0.441    25.2 1973 1998   250.0 BR SA Sao Manoel      ATL Mutum      
+ 759 10000   -35.16  -6.85     2910.0      0.439    29.8 1970 1999    60.0 BR SA Mananguape      ATL Ponte do Le
+ 760 10000   -38.48  -4.30     4050.0      0.441    23.9 1969 1994    42.0 BR SA Choro           ATL Chorozinho 
+ 761 10000   -40.65 -20.32      973.0      0.440    30.9 1969 1999   425.0 BR SA Jucu-Braco Nort ATL Corrego do 
+ 762 10000   116.82 -23.31    42455.0      0.450    30.5 1968 2000 -9999.0 WX AU Ashburton       IND Capricorn R
+ 763 10000   147.38  -9.28      311.0      0.439    13.3 1951 1964 -9999.0 PG PO Laloki          PAC Sogeri     
+ 764 10000    15.43  66.82      426.0      0.429    51.0 1938 1988 -9999.0 NO EU Saltelv         ATL Junkerdalse
+ 765 10000    20.00  41.93      663.0      0.432    40.0 1954 2000    36.0 AL EU Erzeni          MED Ndroq (Ndre
+ 766 10000   175.26 -39.57      506.0      0.428    32.0 1963 1994 -9999.0 NZ PO Mangawhero      PAC Ore Ore    
+ 767 10000   -77.97  18.40      221.0      0.420    10.4 1969 1979    79.0 JM CB Great           ATL Lethe      
+ 768 10000   132.64  33.49      372.0      0.418     6.9 1961 1996 -9999.0 JP AS Oda             PAC Boyashiki  
+ 769 10000    39.40  64.38     1190.0      0.413    58.3 1928 1988    78.0 RU EU Solza           ARC Sukhie Poro
+ 770 10000    16.14  41.30     2716.0      0.418    62.4 1930 1994    31.7 IT EU Ofanto          MED San Samuele
+ 771 10000   120.83  24.45      247.0      0.414    38.0 1956 1993 -9999.0 TW AS Hou-Lung        PAC Ta-Lu-Keng 
+ 772 10000   -41.74 -22.09      626.0      0.415    66.9 1930 1999    30.0 BR SA Macabu          ATL Macabuzinho
+ 773 10000   -49.59 -28.85      404.0      0.413    20.9 1977 1999    10.0 BR SA Manoel Alves    ATL Foz do Manu
+ 774 10000  -149.42 -17.55       78.0      0.406     7.0 1973 1979    45.0 PF PO Papenoo         PAC Cote 45    
+ 775 10000   166.28 -21.95      380.0      0.403     6.4 1973 1979    39.0 NC PO Tontouna        PAC Mine Lilian
+ 776 10000   -53.55 -30.15      732.0      0.396    34.6 1940 1976    80.0 BR SA Sao Sepe        ATL Passo Sao S
+ 777 10000   -84.65  10.05      190.0      0.389     6.4 1969 1975   285.0 CR CA Barranca        PAC Nagatac    
+ 778 10000   125.74 -14.95     1610.0      0.391    30.7 1967 1999   215.0 WX AU Mitchell-IND    IND Map Hill   
+ 779 10000    39.50  66.20     1050.0      0.381    14.4 1952 1966 -9999.0 RU EU Pyalitsa        ARC Pyalitsa   
+ 780 10000  -131.18  55.38       83.1      0.376    76.4 1915 1994     6.1 US NA Fish C Nr Ketch PAC AK         
+ 781 10000   -69.89  10.19     3590.0      0.373    45.0 1943 1989   400.0 VE SA Tocuyo          ATL Pte Torres 
+ 782 10000    57.17  27.40     9285.0      0.368    21.1 1962 1985  1100.0 IR AS Minab           IND Berantin   
+ 783 10000   -39.49 -13.61      875.0      0.364    45.6 1953 1999   153.0 BR SA Preto           ATL Santa Luzia
+ 784 10000   -37.35 -10.94    15740.0      0.364    28.6 1971 1999    19.0 BR SA Vaza Barris     ATL Fazenda Bel
+ 785 10000   147.09 -37.41     1096.0      0.355    45.9 1953 1999   246.1 VX AU Wonnangatta     SOC Crooked Riv
+ 786 10000   -37.76 -12.06     4140.0      0.354    31.7 1966 1999     6.0 BR SA Inhambupe       ATL Corte Grand
+ 787 10000    -0.28  52.56     1634.0      0.349     5.0 1980 1984 -9999.0 UK EU Nene            ATL Orton      
+ 788 10000    44.52 -24.35     1700.0      0.346     5.8 1976 1982 -9999.0 MG AF Linta           IND Ejeda      
+ 789 10000   -42.74 -22.59      287.0      0.344    29.6 1969 1999     8.0 BR SA Macacu          ATL Parque Ribe
+ 790 10000   -73.02 -38.03      377.0      0.339    41.0 1948 1989 -9999.0 CL SA Puren           PAC Tranaman   
+ 791 10000   -41.95 -21.73     1123.0      0.337    32.7 1967 1999    70.0 BR SA Negro-BR        ATL Barra do Ri
+ 792 10000     0.45  51.25     1256.0      0.336    41.8 1956 1999     7.0 UK EU Medway          ATL Teston     
+ 793 10000     8.10  58.85      290.0      0.333    63.0 1925 1987 -9999.0 NO EU Tovdal          ATL Austena    
+ 794 10000   -52.46 -31.57      362.0      0.333    34.1 1964 1999    40.0 BR SA Pelotas [Arr]   ATL Ponte Corde
+ 795 10000    80.27   8.60     2121.0      0.323    35.0 1946 1984    34.0 LK AS Malwatu Oya     IND Kapachchi  
+ 796 10000   120.45  23.12      161.0      0.323    35.0 1959 1993 -9999.0 TW AS Tseng-Wen       PAC Yu-Tien    
+ 797 10000   -19.40  65.50      390.0      0.320    60.0 1933 1992 -9999.0 IS EU Svarta          ATL Reykjafoss 
+ 798 10000   -51.68 -30.75      597.0      0.319     7.6 1977 1986    35.0 BR SA Velhaco [Arr]   ATL Camaqua I  
+ 799 10000   -40.69 -19.42      919.0      0.317    32.3 1965 1998   110.0 BR SA Pancas          ATL Ponte do Pa
+ 800 10000    16.17  57.01     1345.0      0.312    81.5 1920 2003 -9999.0 SE EU Alsteran        ATL Getebro    
+ 801 10000   -39.03 -13.03     1480.0      0.313    50.8 1949 1999    29.0 BR SA Jaguaripe       ATL Nazare     
+ 802 10000   164.99 -20.78      247.0      0.317    29.5 1955 1984 -9999.0 NC PO Tipindje        PAC Ouen-Kout  
+ 803 10000   -66.53  18.43      510.0      0.314    26.8 1970 1998     4.3 PR CB Grande de Manat ATL Hwy 2 nr Ma
+ 804 10000   -71.57 -30.63    11343.0      0.311    31.6 1958 1992    97.0 CL SA Limarí          PAC Panamerican
+ 805 10000   -41.68 -20.77      413.0      0.310    62.1 1937 1999   576.0 BR SA Veado [do]      ATL Guacui     
+ 806 10000   -98.37  29.85     3405.8      0.309    73.3 1922 1995   289.0 US NA Guadalupe River ATL Spring Bran
+ 807 10000   -80.65  35.83      792.5      0.307    53.0 1938 1995   202.3 US NA South Yadkin Ri ATL Near Mocksv
+ 808 10000   -39.05 -12.23    10560.0      0.306    66.4 1929 1999   119.0 BR SA Jacuipe         ATL Ponte Rio B
+ 809 10000   116.08 -32.77     6764.0      0.303    52.5 1939 2000   131.2 WX AU Murray-IND      IND Baden Powel
+ 810 10000    39.97  66.26      670.0      0.300     8.7 1948 1957 -9999.0 RU EU Pulonga         ARC Pulonga    
+ 811 10000    -1.07  51.43     1033.0      0.302    38.3 1961 1999    43.4 UK EU Kennet          ATL Theale     
+ 812 10000   146.62 -41.90      267.0      0.298    38.0 1923 1960 -9999.0 TX AU Ouse            SOC Liawenee   
+ 813 10000   -68.64  10.40     1206.0      0.296    23.3 1943 1966 -9999.0 VE SA Yaracuy         ATL Pte Penon  
+ 814 10000   -35.06  -7.61     1020.0      0.296    25.3 1973 1998    21.0 BR SA Tracunhaem      ATL Engenho Ita
+ 815 10000  -107.10  66.81     1530.0      0.298    15.3 1977 1994 -9999.0 CA NA Gordon          ARC nr mouth   
+ 816 10000   115.90 -34.52     4060.0      0.293    33.5 1966 1999 -9999.0 WX AU Warren          IND Barker Rd C
+ 817 10000   -70.64 -31.89     1160.0      0.289    23.9 1941 1964 -9999.0 CL SA Choapa          PAC Cuncumen   
+ 818 10000   142.62 -38.33     8355.0      0.284    44.2 1955 1999 -9999.0 VX AU Hopkins         SOC Hopkins Fal
+ 819 10000   128.83  41.73      720.0      0.281     4.0 1976 1979  1102.0 KP AS Sodusu          PAC Yenam      
+ 820 10000   121.17  24.70      139.0      0.282    23.0 1971 1993 -9999.0 TW AS Tou-Chien       PAC Nei-Wan    
+ 821 10000   -67.05  18.28      244.0      0.278    32.5 1963 1998    31.6 PR CB Grande de Anasc ATL nr San Seba
+ 822 10000    35.87  32.73     5950.0      0.280    10.8 1965 1975 -9999.0 JO AM Yarmuk          MED Maqarin    
+ 823 10000   146.07 -41.47      149.0      0.275    45.0 1923 1967 -9999.0 TX AU Wilmot          SOC Moina      
+ 824 10000   118.30 -20.70     8204.0      0.284    26.7 1972 1999    43.0 WX AU Yule            IND Jelliabidin
+ 825 10000   -40.71 -19.54      873.0      0.273    23.2 1974 1998 -9999.0 BR SA Santa Joana     ATL jusante Cor
+ 826 10000   120.30  23.28      227.0      0.270    33.0 1961 1993 -9999.0 TW AS Chi-Shui        PAC Shin-Ying  
+ 827 10000   -80.56  22.35      848.0      0.271    17.4 1962 1979    52.0 CU CB Damuji          ATL Rodas      
+ 828 10000   164.42 -20.43      300.0      0.269     4.9 1955 1962 -9999.0 NC PO Dianot          PAC Bonde      
+ 829 10000    34.70  64.75      934.0      0.265    52.7 1935 1988     0.0 RU EU Shuya           ARC Shuyeretsko
+ 830 10000   126.21 -14.80     1695.0      0.270    21.8 1974 1997 -9999.0 WX AU King Edward     IND Mt Reid    
+ 831 10000   -77.00 -11.80     1849.0      0.263    57.9 1935 1992   950.0 PE SA Chillón         PAC Pte Magdale
+ 832 10000   -67.09  18.36      184.0      0.259    31.3 1967 1998    13.7 PR CB Culebrinas      ATL Hwy 404 nr 
+ 833 10000   -35.36  -8.28     2960.0      0.257    32.0 1967 1998   265.0 BR SA Ipojuca         ATL Engenho Tab
+ 834 10000  -118.48  69.11     3050.0      0.259     9.8 1975 1988 -9999.0 CA NA Inman           ARC nr mouth   
+ 835 10000    26.99 -33.24    29745.0      0.253    12.1 1969 1986 -9999.0 ZA AF Great Fish (Gro SOC Outspan    
+ 836 10000    -0.50  39.52     6294.0      0.253    12.5 1986 1999    50.0 ES EU Turia           MED La Presa   
+ 837 10000    13.62  53.73     1403.0      0.252     6.8 1977 1984 -9999.0 DE EU Tollense        ATL Klempenow  
+ 838 10000   -36.30 -10.03     1453.0      0.248    20.4 1978 1998    50.0 BR SA Coruripe        ATL Camacari   
+ 839 10000    -8.40  38.07     2721.0      0.248    52.5 1934 1990    28.0 PT EU Sado            ATL Moinho da G
+ 840 10000     2.79  42.60      473.0      0.245    32.8 1967 1999   132.0 FR EU Tech            MED Saint Paul 
+ 841 10000    34.23  65.38      882.0      0.245    30.0 1957 1987 -9999.0 RU EU Kuzema          ARC Kuzema     
+ 842 10000    11.87  42.35      851.0      0.234    34.0 1930 1972 -9999.0 IT EU Marta           MED Centrale Tr
+ 843 10000   126.79 -14.79     1271.0      0.235    27.2 1971 1999 -9999.0 WX AU Carson          IND Old Theda  
+ 844 10000   -41.36 -21.06      369.0      0.229    31.0 1969 1999    41.0 BR SA Muqui do Sul    ATL Mimoso do S
+ 845 10000   147.48 -36.94      356.0      0.229    64.6 1934 1999   686.7 VX AU Big             SOC Joker Ck   
+ 846 10000   120.45  23.50      150.0      0.227    21.0 1973 1993 -9999.0 TW AS Po-Tzu          PAC Niu-Chou-Ch
+ 847 10000     3.58  36.62     3615.0      0.230     3.7 1976 1979   750.0 DZ AF Isser           MED Lakhdaria  
+ 848 10000    -6.48  53.37     1565.0      0.228     5.0 1973 1977    21.0 IE EU Liffey          ATL Leixlip    
+ 849 10000   -81.30  26.92      805.5      0.226    62.0 1931 1996     8.3 US NA Fisheating Cree ATL t Palmdale,
+ 850 10000   126.50 -14.81     1361.0      0.230    27.2 1971 1999   220.0 WX AU Morgan          IND Moondoalnee
+ 851 10000   -40.95 -20.89      304.0      0.225    29.4 1970 1999    15.0 BR SA Novo            ATL Pau d'Alho 
+ 852 10000    25.33  59.33      903.0      0.225    44.0 1942 1985    40.0 EE EU Yagala (Jägala) ATL Kekhra (Keh
+ 853 10000   -38.15 -12.37      400.0      0.219    13.0 1963 1977    61.0 BR SA Quirico Grande  ATL Fazenda Suc
+ 854 10000  -123.40  72.48     3640.0      0.221    11.4 1975 1988 -9999.0 CA NA Big-CA          ARC u/s Egg Riv
+ 855 10000   -66.38  10.32      719.0      0.216    21.0 1944 1968 -9999.0 VE SA Grande          ATL Carpintero 
+ 856 10000   -66.92  10.16     1180.0      0.217    26.3 1942 1968 -9999.0 VE SA Tuy             ATL Hacienda Ta
+ 857 10000     9.30  54.52      480.0      0.216     5.8 1981 1986 -9999.0 DE EU Treene          ATL Treia      
+ 858 10000    40.57  66.50      584.0      0.215    43.5 1948 1992 -9999.0 RU EU Sosnovka        ARC Sosnovka   
+ 859 10000   -37.36  -5.22     9450.0      0.210    12.2 1986 1999 -9999.0 BR SA Apodi           ATL Mossoro    
+ 860 10000   -41.92 -20.69      447.0      0.209    62.3 1937 1999   739.0 BR SA Sao Joao        ATL Caiana     
+ 861 10000    27.03  59.38      788.0      0.206    63.0 1923 1985    32.0 EE EU Purtse          ATL Slyuganuze 
+ 862 10000   -74.15  41.08      310.8      0.204    77.0 1902 1995    77.1 US NA Ramapo River Ne ATL Mahwah, NJ 
+ 863 10000   115.78 -34.33      808.0      0.208    24.4 1940 1966 -9999.0 WX AU Donnelly        IND Nannup Rd B
+ 864 10000  -149.32 -17.65       25.0      0.203    12.2 1974 1986 -9999.0 PF PO Papeiha         PAC Cote 10    
+ 865 10000    19.54 -32.54     6903.0      0.268    76.3 1923 2001 -9999.0 ZA AF Doring          ATL Aspoort    
+ 866 10000   -38.36  -4.50     2000.0      0.196    28.8 1969 1998    50.0 BR SA Pirangi         ATL Cristais   
+ 867 10000     2.82  36.67     1912.0      0.194     3.7 1976 1979    10.0 DZ AF Mazafran        MED Fer a Cheva
+ 868 10000    24.43  59.30      650.0      0.191    63.0 1923 1985    24.0 EE EU Keyla (Keila)   ATL Keyla (Keil
+ 869 10000   -41.09 -21.02      505.0      0.189    14.5 1984 1999 -9999.0 BR SA Muqui do Norte  ATL Fazenda Cac
+ 870 10000   -70.52 -33.37      500.0      0.184    14.9 1943 1958 -9999.0 CL SA Mapocho         PAC Las Condes 
+ 871 10000   -39.18 -13.78      310.0      0.183    30.2 1969 1999    82.0 BR SA Cachoeira Grand ATL Itubera    
+ 872 10000   -78.28  -9.48     2082.0      0.179    30.0 1931 1960    60.0 PE SA Casma           PAC Pte Carrete
+ 873 10000    -1.45  35.15     6900.0      0.174     4.0 1976 1979    65.0 DZ AF Tafna           MED Pierre du C
+ 874 10000    35.30  -5.97    11400.0      0.172    24.6 1960 1984   860.0 TZ AF Bubu            IND Bahi       
+ 875 10000   -70.52 -28.72     7187.0      0.162    41.0 1948 1989 -9999.0 CL SA Huasco          PAC El Algodon 
+ 876 10000   166.85 -22.23       61.0      0.159    27.0 1958 1984 -9999.0 NC PO Riviere des Lac PAC Goulet     
+ 877 10000     8.50  36.12     9000.0      0.159     4.0 1976 1979   327.0 TN AF Mellegue        MED K13        
+ 878 10000     4.60  36.42     4309.0      0.152     2.7 1976 1978   220.0 DZ AF Bouselam (Soumm MED Sidi Yahia 
+ 879 10000     9.20  42.22      154.0      0.152    38.7 1959 1999   237.0 FR EU Vecchio         MED Pont de Noc
+ 880 10000   -37.19 -10.66     1960.0      0.149    17.3 1972 1999    15.0 BR SA Sergipe         ATL Santa Rosa 
+ 881 10000    -8.47  37.30      386.0      0.139    36.8 1952 1992    59.0 PT EU Odelouca        ATL Monte dos P
+ 882 10000   -35.22  -6.45     3590.0      0.137    28.5 1927 1997    30.0 BR SA Curimatau       ATL Pedro Velho
+ 883 10000    -1.27  51.09      237.0      0.134    19.8 1975 1999 -9999.0 UK EU Itchen          ATL Easton     
+ 884 10000    26.58  59.37      406.0      0.132    44.0 1942 1985    48.0 EE EU Kunda           ATL Syami (Sämi
+ 885 10000   -35.42  -5.63     2400.0      0.171    41.0 1912 1997    13.0 BR SA Ceara-Mirim     ATL Ceara-Mirim
+ 886 10000    23.87  59.25      472.0      0.128    55.5 1929 1985     5.0 EE EU Vihterpalu (Vih ATL Vihterpalu 
+ 887 10000  -155.15  19.77       30.0      0.117    28.8 1911 1996   469.4 US Ho olii Stream Nr  PAC Honolii Str
+ 888 10000     1.11  35.87     2398.0      0.112     4.0 1976 1979   140.0 DZ AF Rhiou           MED Ammi Moussa
+ 889 10000   -78.02 -10.07     2046.0      0.109    27.0 1933 1960    30.0 PE SA Huarmey         PAC Pte Carrete
+ 890 10000   -37.29  -5.29     2547.0      0.106     6.9 1993 1999 -9999.0 BR SA Carmo [do]      ATL Fazenda Ang
+ 891 10000    -2.05  51.55      303.0      0.106    34.7 1964 1999 -9999.0 UK EU Avon (Bristol A ATL Great Somer
+ 892 10000    25.78  59.47      403.0      0.105    40.0 1945 1985    57.0 EE EU Valgey-yogi (Va ATL Vanakyula (
+ 893 10000   -37.04 -10.70      302.0      0.104    22.8 1973 1999     8.0 BR SA Siriri          ATL Rosario do 
+ 894 10000     9.72  35.38     8575.0      0.103     2.7 1976 1978   232.0 TN AF Zeroud          MED Sidi Saad  
+ 895 10000     7.72  36.45      552.0      0.100     2.7 1976 1978    95.0 DZ AF Melah           MED Bouchegouf 
+ 896 10000     1.03  51.26      345.0      0.098    35.0 1964 1999    12.5 UK EU Great Stour     ATL Horton     
+ 897 10000   -38.74 -12.53      390.0      0.092     4.9 1990 1994     8.0 BR SA Subae           ATL Subae Ii   
+ 898 10000   -35.31  -6.06     2500.0      0.091    19.9 1977 1997    35.0 BR SA Trairi          ATL Monte Alegr
+ 899 10000   -52.48 -31.71      133.0      0.089    33.6 1964 1999    10.0 BR SA Fragata [Arr]   ATL Passo dos C
+ 900 10000     0.69  35.46     6635.0      0.089     2.7 1976 1978   205.0 DZ AF Mina            MED Oued El-Abt
+ 901 10000   115.83 -30.98    12295.0      0.072    30.6 1969 1999 -9999.0 WX AU Moore           IND Quinns Ford
+ 902 10000    -6.54  33.70     3230.0      0.072     4.7 1980 1984 -9999.0 MA AF Bou Regreg      ATL Lalla Chafi
+ 903 10000    17.73  60.02      284.0      0.066    83.5 1917 2002 -9999.0 SE EU Vattholmaan     ATL Vattholma 2
+ 904 10000    13.18  66.40       18.0      0.062    72.0 1917 1988 -9999.0 NO EU Kjerringa       ATL Vassvatn   
+ 905 10000     9.47  36.95      234.0      0.063     4.0 1976 1979   130.0 TN AF Joumine         MED Jebel Antra
+ 906 10000    -4.70  37.05      761.0      0.050     7.0 1977 1984 -9999.0 ES EU Guadalhorce     MED Bobadilla  
+ 907 10000     9.12  35.08     2200.0      0.048    40.5 1957 1998   481.0 TN AF Hatab           MED Kanguet Zaz
+ 908 10000   115.11 -25.74     7796.0      0.046    25.1 1973 1998 -9999.0 WX AU Wooramel        IND Meedo Pool 
+ 909 10000    -1.22  35.07     1118.0      0.043     3.7 1976 1979   287.0 DZ AF Isser1          MED Bensekrane 
+ 910 10000  -159.42  22.07       16.2      0.043    82.0 1912 1996   152.4 US NA Eb Of Nf Wailua PAC Eb Of Nf Wa
+ 911 10000   -35.45  -5.82     2720.0      0.041     2.7 1933 1971    60.0 BR SA Potengi         ATL Igreja Nova
+ 912 10000     8.95  36.29      500.0      0.039    16.4 1970 1994   280.0 TN AF Tessa           MED Sidi Medien
+ 913 10000  -156.58  20.95       10.6      0.035    78.5 1913 1995   265.2 US NA Honokohau Strea PAC Honokohau S
+ 914 10000  -156.13  20.82        9.5      0.033    77.3 1914 1995   409.4 US NA West Wailuaiki  PAC West Wailua
+ 915 10000   176.73 -40.02       54.0      0.028     5.8 1965 1984 -9999.0 NZ PO Omakere         PAC Fordale    
+ 916 10000   -35.22  -6.23     2498.0      0.024     2.0 1970 1971    20.0 BR SA Jacu            ATL Goianinha  
+ 917 10000   -69.53 -21.65      500.0      0.023     5.7 1966 1972 -9999.0 CL SA Loa             PAC Quillagua  
+ 918 10000     9.67  35.63      675.0      0.020     4.0 1976 1979   250.0 TN AF Merguellil      MED Haffouz    
+ 919 10000     3.42  36.65      829.0      0.019     3.7 1976 1979    60.0 DZ AF Boudouaou       MED Keddara    
+ 920 10000     6.29  36.24     1220.0      0.011     2.7 1976 1978   710.0 DZ AF Rhumel          MED Oued Athman
+ 921 10000    10.11  35.65      180.0      0.007    23.7 1974 1998   600.0 TN AF Skhira          MED Kef El Abio
+ 922 10000   -59.00   6.00    14000.0     24.473    16.7 1978 1995  -999.0 GU SA MAZARUNI        ATL APAIKWA    
+ 923 10000    39.00  -5.50    25110.0      0.861    18.7 1959 1977  -999.0 TA AF PANGANI         IND KOROGWE    
+ 924 10000    13.50  -9.50   163832.0   -999.000  -999.0 -999 -999  -999.0 AG AF CUANZA          ATL Ponta das  
+ 925 10000   120.00  30.00    67212.0   -999.000  -999.0 -999 -999  -999.0 CN AS FUCHUN JIANG    PAC Hangzhou   
